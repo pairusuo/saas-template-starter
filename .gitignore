@@ -188,3 +188,4 @@ yarn.lock
 
 # self-define
 local_service.sh
+.swc/
