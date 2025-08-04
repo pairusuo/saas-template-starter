@@ -1,16 +1,18 @@
 'use client';
 
 import { Logo } from '@/components/ui/logo';
+import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from '@/components/ui/language-switcher';
 import { useParams, usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+
+import { createLocalizedPath, useNavTranslations } from '@/lib/i18n-utils';
 
 export function Header() {
   const params = useParams();
   const pathname = usePathname();
   const locale = params.locale as string;
-  const t = useTranslations('navigation');
+  const tNav = useNavTranslations();
 
   // Check if we're on the home page
   const isHomePage = () => {
@@ -19,18 +21,13 @@ export function Header() {
     return homePaths.includes(current);
   };
 
-  // Create localized path
-  const createLocalizedPath = (path: string) => {
-    return locale === 'en' ? path : `/${locale}${path}`;
-  };
-
   // Smooth scroll to anchor
   const handleAnchorClick = (e: React.MouseEvent<HTMLAnchorElement>, anchor: string) => {
     e.preventDefault();
 
     // If not on the home page, go there first
     if (!isHomePage()) {
-      window.location.href = `${createLocalizedPath('/')}#${anchor}`;
+      window.location.href = `${createLocalizedPath('/', locale)}#${anchor}`;
       return;
     }
     // Already on the home page, smooth scroll
@@ -39,7 +36,7 @@ export function Header() {
       const headerHeight = 56;
       const pos = el.offsetTop - headerHeight;
       window.scrollTo({ top: pos, behavior: 'smooth' });
-      window.history.pushState(null, '', `${createLocalizedPath('/')}#${anchor}`);
+      window.history.pushState(null, '', `${createLocalizedPath('/', locale)}#${anchor}`);
     }
   };
 
@@ -47,33 +44,26 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 items-center px-4">
         <div className="mr-4 flex">
-          <Logo size="header" className="mr-6" href={createLocalizedPath('/')} />
+          <Logo size="header" className="mr-6" href={createLocalizedPath('/', locale)} />
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             <a
-              href={`${createLocalizedPath('/')}#features`}
+              href={`${createLocalizedPath('/#features', locale)}`}
               onClick={(e) => handleAnchorClick(e, 'features')}
               className="transition-colors hover:text-foreground/80 text-foreground/60 cursor-pointer"
             >
-              {t('features')}
-            </a>
-            <a
-              href={`${createLocalizedPath('/')}#pricing`}
-              onClick={(e) => handleAnchorClick(e, 'pricing')}
-              className="transition-colors hover:text-foreground/80 text-foreground/60 cursor-pointer"
-            >
-              {t('pricing')}
+              {tNav('features')}
             </a>
             <Link
-              href={createLocalizedPath('/docs')}
+              href={createLocalizedPath('/docs', locale)}
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
-              {t('docs')}
+              {tNav('docs')}
             </Link>
             <Link
-              href={createLocalizedPath('/blog')}
+              href={createLocalizedPath('/blog', locale)}
               className="transition-colors hover:text-foreground/80 text-foreground/60"
             >
-              {t('blog')}
+              {tNav('blog')}
             </Link>
           </nav>
         </div>
@@ -81,7 +71,7 @@ export function Header() {
           <div className="w-full flex-1 md:w-auto md:flex-none">
             {/* Search or other components */}
           </div>
-          <nav className="flex items-center space-x-2">
+          <nav className="flex items-center">
             <LanguageSwitcher />
           </nav>
         </div>

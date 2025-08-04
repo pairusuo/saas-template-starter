@@ -2,7 +2,6 @@ import { HeroSection } from '@/components/landing/hero-section';
 import { SocialProofSection } from '@/components/landing/social-proof-section';
 import { TechStackSection } from '@/components/landing/tech-stack-section';
 import { FeaturesSection } from '@/components/landing/features-section';
-import { PricingSection } from '@/components/landing/pricing-section';
 import { TestimonialsSection } from '@/components/landing/testimonials-section';
 import { CTASection } from '@/components/landing/cta-section';
 import { FAQSection } from '@/components/landing/faq-section';
@@ -26,7 +25,6 @@ export default function HomePage() {
         {landingConfig.testimonials.enabled && (
           <TestimonialsSection config={landingConfig.testimonials} />
         )}
-        {landingConfig.pricing.enabled && <PricingSection config={landingConfig.pricing} />}
         {landingConfig.faq.enabled && <FAQSection config={landingConfig.faq} />}
         {landingConfig.cta.enabled && <CTASection config={landingConfig.cta} />}
       </main>
