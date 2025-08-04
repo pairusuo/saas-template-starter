@@ -1,0 +1,164 @@
+{
+  "title": "选择您的套餐",
+  "subtitle": "选择适合您需求的完美套餐。随时升级或降级。",
+  "billingToggle": {
+    "monthly": "按月付费",
+    "annual": "按年付费",
+    "saveText": "节省 20%"
+  },
+  "plans": {
+    "starter": {
+      "name": "入门版",
+      "description": "适合个人用户和小型项目",
+      "price": {
+        "monthly": 0,
+        "annual": 0
+      },
+      "currency": "¥",
+      "period": {
+        "monthly": "/月",
+        "annual": "/年"
+      },
+      "features": [
+        "每月最多 1,000 次 API 调用",
+        "1 GB 存储空间",
+        "邮件支持",
+        "基础分析",
+        "社区访问"
+      ],
+      "popular": false,
+      "buttonText": "开始使用",
+      "buttonVariant": "outline"
+    },
+    "professional": {
+      "name": "专业版",
+      "description": "适合成长中的企业和团队",
+      "price": {
+        "monthly": 199,
+        "annual": 159
+      },
+      "currency": "¥",
+      "period": {
+        "monthly": "/月",
+        "annual": "/月"
+      },
+      "features": [
+        "每月最多 25,000 次 API 调用",
+        "50 GB 存储空间",
+        "优先邮件支持",
+        "高级分析",
+        "团队协作",
+        "自定义集成",
+        "优先支持"
+      ],
+      "popular": true,
+      "buttonText": "开始免费试用",
+      "buttonVariant": "default"
+    },
+    "enterprise": {
+      "name": "企业版",
+      "description": "适合有高级需求的大型组织",
+      "price": {
+        "monthly": 699,
+        "annual": 559
+      },
+      "currency": "¥",
+      "period": {
+        "monthly": "/月",
+        "annual": "/月"
+      },
+      "features": [
+        "无限制 API 调用",
+        "500 GB 存储空间",
+        "24/7 电话和邮件支持",
+        "高级分析和报告",
+        "团队管理",
+        "自定义集成",
+        "SLA 保证",
+        "专属客户经理",
+        "自定义品牌"
+      ],
+      "popular": false,
+      "buttonText": "联系销售",
+      "buttonVariant": "outline"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "question": "我可以随时更改我的套餐吗？",
+        "answer": "是的，您可以随时升级或降级您的套餐。更改将在下一个计费周期生效。"
+      },
+      {
+        "question": "有免费试用吗？",
+        "answer": "是的，我们为专业版和企业版提供 14 天免费试用。无需信用卡。"
+      },
+      {
+        "question": "您接受哪些付款方式？",
+        "answer": "我们接受所有主要信用卡（Visa、MasterCard、American Express）和 PayPal。"
+      },
+      {
+        "question": "我可以随时取消订阅吗？",
+        "answer": "是的，您可以随时取消订阅。您的访问权限将持续到当前计费周期结束。"
+      },
+      {
+        "question": "您提供退款吗？",
+        "answer": "我们对所有付费套餐提供 30 天退款保证。请联系我们的支持团队获取帮助。"
+      }
+    ]
+  },
+  "comparison": {
+    "title": "功能对比",
+    "subtitle": "对比所有套餐的详细功能",
+    "feature": "功能",
+    "apiCalls": "API调用次数",
+    "projects": "项目数量",
+    "support": "客户支持",
+    "analytics": "数据分析",
+    "customDomain": "自定义域名",
+    "sla": "SLA保障",
+    "values": {
+      "apiCalls": {
+        "starter": "1,000次/月",
+        "professional": "25,000次/月",
+        "enterprise": "无限制"
+      },
+      "projects": {
+        "starter": "1个",
+        "professional": "无限制",
+        "enterprise": "无限制"
+      },
+      "support": {
+        "starter": "社区支持",
+        "professional": "邮件支持",
+        "enterprise": "24/7电话支持"
+      }
+    }
+  },
+  "mostPopular": "最受欢迎",
+  "chooseYourPlan": "选择您的套餐",
+  "upgradeOrDowngrade": "升级或降级",
+  "currentPlan": "当前套餐",
+  "selectPlan": "选择套餐",
+  "switchPlan": "切换套餐",
+  "processing": "处理中...",
+  "noFeaturesAvailable": "暂无功能",
+  "billingHistory": "账单历史",
+  "noBillingHistory": "暂无账单历史",
+  "invoicesWillShow": "您的发票和付款历史将显示在这里",
+  "canceling": "取消中...",
+  "opening": "打开中...",
+  "manageBilling": "管理账单",
+  "features": {
+    "title": "所有套餐都包含",
+    "items": [
+      "SSL 加密",
+      "99.9% 正常运行时间保证",
+      "定期备份",
+      "移动应用访问",
+      "API 文档",
+      "开发者工具"
+    ]
+  }
+}

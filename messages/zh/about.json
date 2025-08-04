@@ -1,0 +1,106 @@
+{
+  "title": "关于 SaaS Template",
+  "description": "一个全面的、生产就绪的 SaaS 应用程序模板，采用现代技术构建，加速您的开发之旅",
+  "content": {
+    "heading": "关于 SaaS Template",
+    "intro1": "SaaS Template 是一个全面的、生产就绪的现代软件即服务应用程序开发基础。由经验丰富的开发者设计，它结合了行业最佳实践和前沿技术，帮助您更快、更可靠地发布 SaaS 产品。",
+    "intro2": "我们的模板通过提供强大、可扩展的架构，开箱即用地处理身份验证、用户管理、计费、国际化等功能，为您节省数月的初始开发工作。",
+
+    "featuresHeading": "功能特性",
+    "features": {
+      "authentication": {
+        "title": "高级身份验证",
+        "description": "集成 Google 和 GitHub OAuth，安全的会话管理，以及基于角色的访问控制"
+      },
+      "ui": {
+        "title": "现代 UI 组件",
+        "description": "使用 Tailwind CSS 和 shadcn/ui 组件构建的美观、可访问的 UI，支持深色模式"
+      },
+      "internationalization": {
+        "title": "多语言支持",
+        "description": "内置国际化功能，支持中英文，可轻松扩展到其他语言"
+      },
+      "dashboard": {
+        "title": "功能丰富的仪表板",
+        "description": "完整的用户仪表板，包含个人资料管理、设置、使用分析和计费集成"
+      },
+      "responsive": {
+        "title": "移动优先设计",
+        "description": "完全响应式设计，在桌面、平板和移动设备上都能完美运行"
+      },
+      "seo": {
+        "title": "SEO 优化",
+        "description": "内置 SEO 优化，包含站点地图生成、元标签和搜索引擎友好的 URL"
+      }
+    },
+
+    "techStackHeading": "技术栈",
+    "techStack": {
+      "frontend": {
+        "title": "前端",
+        "technologies": ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS", "shadcn/ui"]
+      },
+      "backend": {
+        "title": "后端和认证",
+        "technologies": ["NextAuth.js", "API Routes", "中间件", "JWT 会话"]
+      },
+      "tools": {
+        "title": "开发工具",
+        "technologies": ["ESLint", "Prettier", "Husky", "lint-staged", "TypeScript"]
+      },
+      "deployment": {
+        "title": "部署就绪",
+        "technologies": ["Vercel", "Docker 支持", "环境配置", "CI/CD 就绪"]
+      }
+    },
+
+    "whyChooseHeading": "为什么选择 SaaS Template？",
+    "whyChoose": {
+      "timeToMarket": {
+        "title": "更快的上市时间",
+        "description": "跳过数月的初始开发工作。我们的模板提供坚实的基础，让您专注于独特的业务逻辑。"
+      },
+      "bestPractices": {
+        "title": "行业最佳实践",
+        "description": "遵循现代开发标准、安全准则和性能优化技术构建。"
+      },
+      "scalable": {
+        "title": "可扩展架构",
+        "description": "设计用于与您的业务一起成长。从初创公司到企业级，我们的架构随您的需求扩展。"
+      },
+      "community": {
+        "title": "社区驱动",
+        "description": "开源项目，拥有活跃的社区支持。基于实际使用情况持续更新和改进。"
+      }
+    },
+
+    "valuesHeading": "我们的核心价值",
+    "values": {
+      "quality": {
+        "title": "代码质量",
+        "description": "我们优先考虑干净、可维护的代码，提供全面的 TypeScript 支持和彻底的测试"
+      },
+      "performance": {
+        "title": "性能优先",
+        "description": "针对速度优化，采用懒加载、高效打包和现代性能技术"
+      },
+      "security": {
+        "title": "安全设计",
+        "description": "内置安全功能，包括 CSRF 保护、安全头部和 OAuth 最佳实践"
+      },
+      "developer": {
+        "title": "开发者体验",
+        "description": "出色的 DX，支持热重载、TypeScript 智能提示和全面的文档"
+      }
+    },
+
+    "getStartedHeading": "准备开始了吗？",
+    "getStartedText": "加入已经选择 SaaS Template 来构建下一个成功的 SaaS 应用程序的数千名开发者。无论您是初创公司创始人、自由开发者还是企业团队，我们的模板都能为您提供所需的基础。",
+    "features2": {
+      "documentation": "📚 全面的文档和设置指南",
+      "support": "💬 社区支持和定期更新",
+      "customizable": "🎨 完全可定制以匹配您的品牌",
+      "production": "🚀 生产就绪，提供部署指南"
+    }
+  }
+}

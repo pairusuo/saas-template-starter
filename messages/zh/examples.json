@@ -1,0 +1,34 @@
+{
+  "title": "示例",
+  "description": "查看我们的 SaaS Template实际应用",
+  "content": {
+    "heading": "示例",
+    "liveExamples": {
+      "title": "在线示例",
+      "dashboard": {
+        "title": "仪表板演示",
+        "description": "带有图表和分析的交互式仪表板。",
+        "viewDemo": "查看演示 →"
+      },
+      "authFlow": {
+        "title": "身份验证流程",
+        "description": "完整的身份验证和用户管理系统。",
+        "viewDemo": "查看演示 →"
+      },
+      "billing": {
+        "title": "账单集成",
+        "description": "Stripe 集成与订阅管理。",
+        "viewDemo": "查看演示 →"
+      }
+    },
+    "codeExamples": {
+      "title": "代码示例",
+      "apiRoute": {
+        "title": "API 路由示例"
+      },
+      "databaseQuery": {
+        "title": "数据库查询示例"
+      }
+    }
+  }
+}

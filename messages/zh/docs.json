@@ -1,0 +1,48 @@
+{
+  "title": "文档",
+  "description": "学习如何使用我们的 SaaS Template",
+  "content": {
+    "heading": "文档",
+    "gettingStarted": {
+      "title": "快速开始",
+      "quickStart": {
+        "title": "🚀 快速开始",
+        "description": "几分钟内快速启动并运行我们的 SaaS Template。",
+        "readMore": "阅读更多 →"
+      },
+      "configuration": {
+        "title": "⚙️ 配置",
+        "description": "了解如何配置您的应用程序设置。",
+        "readMore": "阅读更多 →"
+      }
+    },
+    "coreFeatures": {
+      "title": "核心功能",
+      "auth": {
+        "title": "身份验证与授权",
+        "description": "使用 NextAuth.js 进行安全的用户身份验证和基于角色的访问控制。"
+      },
+      "database": {
+        "title": "数据库集成",
+        "description": "PostgreSQL 数据库与 Drizzle ORM，提供类型安全的数据库操作。"
+      },
+      "payment": {
+        "title": "支付处理",
+        "description": "Stripe 集成，处理订阅和支付。"
+      },
+      "i18n": {
+        "title": "国际化",
+        "description": "使用 next-intl 进行多语言支持，适用于全球应用程序。"
+      }
+    },
+    "apiReference": {
+      "title": "API 参考",
+      "availableEndpoints": "可用端点",
+      "endpoints": {
+        "auth": "身份验证端点",
+        "users": "用户管理",
+        "billing": "账单和订阅"
+      }
+    }
+  }
+}

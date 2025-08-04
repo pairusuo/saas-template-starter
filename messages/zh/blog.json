@@ -1,0 +1,37 @@
+{
+  "title": "博客",
+  "description": "来自我们团队的最新消息和更新",
+  "latestPosts": "最新文章",
+  "categories": "分类",
+  "newsletter": {
+    "title": "订阅我们的新闻通讯",
+    "description": "及时了解最新文章和公告。",
+    "placeholder": "输入您的邮箱",
+    "subscribe": "订阅"
+  },
+  "posts": {
+    "post1": {
+      "date": "2024年3月15日",
+      "title": "构建可扩展的SaaS应用程序",
+      "description": "学习构建可扩展到数百万用户的SaaS应用程序的关键原则和最佳实践。"
+    },
+    "post2": {
+      "date": "2024年3月10日",
+      "title": "现代身份验证模式",
+      "description": "探索现代身份验证模式以及如何在您的应用程序中安全地实现它们。"
+    },
+    "post3": {
+      "date": "2024年3月5日",
+      "title": "SaaS数据库设计",
+      "description": "构建多租户SaaS数据库的设计模式和注意事项。"
+    }
+  },
+  "categoryLabels": {
+    "development": "开发",
+    "design": "设计",
+    "business": "商业",
+    "security": "安全",
+    "performance": "性能"
+  },
+  "readMore": "阅读更多 →"
+}

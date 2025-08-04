@@ -1,0 +1,167 @@
+# AI Rules for Optimized SaaS Template
+
+## Project Context
+This is a modern, high-performance SaaS application template built with Next.js 14, React 18, TypeScript, and PostgreSQL. It integrates best practices and enterprise-level features analyzed from leading SaaS templates.
+
+## Technology Stack Guidelines
+
+### Core Framework
+- **Frontend**: Next.js 14 with App Router, React 18, TypeScript
+- **Styling**: Tailwind CSS + Shadcn/ui + Radix UI components
+- **Database**: PostgreSQL with Drizzle ORM
+- **Authentication**: NextAuth.js v5 (OAuth + Magic Links)
+- **Payments**: Stripe integration
+- **Internationalization**: next-intl (English/Chinese support)
+- **Deployment**: Vercel/Cloudflare/Docker compatible
+
+### Code Standards
+1. **TypeScript First**: Always use TypeScript with strict mode enabled
+2. **Component Architecture**: Follow the established component structure in `src/components/`
+3. **File Organization**: Maintain the current directory structure and naming conventions
+4. **Import Strategy**: Use absolute imports with path mapping configured in tsconfig.json
+5. **Function Naming**: Name functions based on their purpose/functionality, not their current implementation content
+
+### Function Naming Best Practices
+**DO: Describe functionality**
+- `LogoSVG()` - describes what it renders (a Logo as SVG)
+- `getLogoSvgString()` - describes what it returns (Logo SVG as string)
+- `validateEmail()` - describes what it does (validates email)
+- `calculatePrice()` - describes what it computes (calculates price)
+
+**DON'T: Describe current implementation content**
+- ❌ `RedRocketSVG()` - tied to current rocket design
+- ❌ `BlueButtonComponent()` - tied to current blue color
+- ❌ `PostgresqlUserService()` - tied to current database choice
+- ❌ `StripePaymentHandler()` - tied to current payment provider
+
+**Rationale**: Function names should remain stable and meaningful even when implementation details change. This improves maintainability, readability, and reduces the need for refactoring when design or implementation evolves.
+
+### Database and API Guidelines
+1. **ORM Usage**: Use Drizzle ORM for all database operations
+2. **Schema Changes**: Always create migrations using `drizzle-kit generate`
+3. **API Routes**: Follow the Next.js App Router API convention in `src/app/api/`
+4. **Validation**: Use Zod schemas for input validation
+5. **Authentication**: Leverage NextAuth.js sessions for protected routes
+
+### UI/UX Standards
+1. **Component Library**: Use Shadcn/ui components as the base, extend when needed
+2. **Responsive Design**: Ensure all components work across mobile, tablet, and desktop
+3. **Dark Mode**: Support both light and dark themes using next-themes
+4. **Accessibility**: Follow WCAG guidelines and use semantic HTML
+5. **Loading States**: Implement skeleton loading components for better UX
+
+### Security Requirements
+1. **Input Validation**: Validate all user inputs on both client and server side
+2. **SQL Injection Prevention**: Use parameterized queries via Drizzle ORM
+3. **XSS Protection**: Sanitize user-generated content
+4. **CSRF Protection**: Implement CSRF tokens for sensitive operations
+5. **Rate Limiting**: Apply rate limits to API endpoints
+6. **Environment Variables**: Never commit secrets, use proper env validation
+
+### Performance Optimization
+1. **Code Splitting**: Use dynamic imports for heavy components
+2. **Image Optimization**: Use Next.js Image component for all images
+3. **Caching**: Implement appropriate caching strategies (Redis when available)
+4. **Bundle Analysis**: Monitor bundle size and optimize imports
+5. **Database Queries**: Optimize queries and use proper indexing
+
+## Development Workflow
+
+### When Making Changes
+1. **Read Existing Code**: Always examine the current implementation before making changes
+2. **Follow Patterns**: Maintain consistency with existing code patterns
+3. **Test Locally**: Ensure changes work in development environment
+4. **Type Safety**: Fix all TypeScript errors before committing
+5. **Database Changes**: Run migrations and update seed data if needed
+
+### File Modification Priority
+1. **Edit Over Create**: Always prefer editing existing files over creating new ones
+2. **Component Reuse**: Check for existing components before creating new ones
+3. **Utility Functions**: Use existing utilities in `src/utils/` and `src/lib/`
+4. **Type Definitions**: Extend existing types in `src/types/` when possible
+
+### Testing Requirements
+1. **Unit Tests**: Write tests for utility functions and hooks
+2. **Integration Tests**: Test API endpoints and database operations
+3. **E2E Tests**: Maintain Playwright tests for critical user flows
+4. **Type Checking**: Run `npm run type-check` before deployment
+
+## Specific Implementation Rules
+
+### Authentication Flow
+- Use NextAuth.js v5 with the configured providers (Google, GitHub)
+- Implement proper session management with database sessions
+- Handle user creation and profile updates through the established patterns
+- Use middleware for route protection
+
+### Database Operations
+- Use the established schema in `src/lib/db/schema.ts`
+- Follow the naming conventions for tables and columns
+- Implement proper relationships between tables
+- Use transactions for complex operations
+
+### API Development
+- Follow REST conventions for API endpoints
+- Implement proper error handling and status codes
+- Use Zod schemas for request/response validation
+- Add rate limiting and authentication where needed
+
+### Component Development
+- Use the established component structure with ui/ and feature-specific folders
+- Implement proper TypeScript interfaces for props
+- Use React hooks appropriately (prefer custom hooks in `src/hooks/`)
+- Follow the theming system with CSS variables
+
+### State Management
+- Use Zustand stores for global state (see `src/stores/`)
+- Prefer React Query for server state management
+- Use React hooks for local component state
+- Implement proper loading and error states
+
+## File Structure Rules
+
+### Required Files (Never Delete)
+- `package.json` - Project dependencies and scripts
+- `next.config.js` - Next.js framework configuration
+- `tsconfig.json` - TypeScript compiler configuration
+- `tailwind.config.js` - Tailwind CSS configuration
+- `drizzle.config.ts` - Database ORM configuration
+- `src/app/layout.tsx` - Root layout component
+- `src/lib/auth.ts` - Authentication configuration
+- `src/lib/db/` - Database connection and schema
+- `src/middleware.ts` - Route middleware
+
+### Optional but Important
+- `drizzle/` - Database migrations (can be regenerated)
+- `e2e/` - End-to-end tests
+- `docs/` - Project documentation
+- `.vscode/` - IDE configuration
+
+## Error Handling
+1. **API Errors**: Return proper HTTP status codes with descriptive messages
+2. **Database Errors**: Handle connection issues and constraint violations gracefully
+3. **Authentication Errors**: Provide clear feedback for auth failures
+4. **Client Errors**: Use toast notifications and error boundaries
+5. **Logging**: Implement proper logging for debugging and monitoring
+
+## Deployment Considerations
+1. **Environment Variables**: Validate all required env vars using `src/lib/env.ts`
+2. **Database Migrations**: Ensure migrations run before deployment
+3. **Build Process**: Verify successful builds with `npm run build`
+4. **Static Analysis**: Run linting and type checking
+5. **Security Headers**: Configure proper security headers in production
+
+## Maintenance Guidelines
+1. **Dependencies**: Keep dependencies updated and secure
+2. **Performance Monitoring**: Use Vercel Analytics and Web Vitals
+3. **Error Tracking**: Implement error monitoring (Sentry recommended)
+4. **Backup Strategy**: Regular database backups for production
+5. **Documentation**: Keep README and docs updated with changes
+
+## AI Assistant Specific Rules
+1. **Context Awareness**: Always understand the full project structure before suggesting changes
+2. **Best Practices**: Recommend industry best practices for SaaS applications
+3. **Security Focus**: Prioritize security in all recommendations
+4. **Performance Impact**: Consider performance implications of suggested changes
+5. **Maintainability**: Ensure code remains maintainable and scalable
+6. **Documentation**: Provide clear explanations for complex implementations

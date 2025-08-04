@@ -1,0 +1,40 @@
+{
+  "title": "Careers",
+  "description": "Join our team and help build the future of SaaS",
+  "content": {
+    "heading": "Careers",
+    "intro": "Join our team and help us build the future of SaaS development. We're always looking for talented individuals who are passionate about technology and innovation.",
+    "whyWorkWithUs": {
+      "title": "Why Work With Us?",
+      "innovation": {
+        "title": "🚀 Innovation",
+        "description": "Work on cutting-edge technologies and shape the future of web development."
+      },
+      "growth": {
+        "title": "🌱 Growth",
+        "description": "Continuous learning opportunities and career advancement paths."
+      },
+      "flexibility": {
+        "title": "🏠 Flexibility",
+        "description": "Remote-first culture with flexible working hours."
+      },
+      "benefits": {
+        "title": "💰 Benefits",
+        "description": "Competitive salary, equity, and comprehensive benefits package."
+      }
+    },
+    "openPositions": {
+      "title": "Open Positions",
+      "seniorFrontend": {
+        "title": "Senior Frontend Developer",
+        "description": "We're looking for an experienced frontend developer to help build our next-generation SaaS platforms.",
+        "applyNow": "Apply Now"
+      },
+      "backendEngineer": {
+        "title": "Backend Engineer",
+        "description": "Join our backend team to build scalable, high-performance APIs and services.",
+        "applyNow": "Apply Now"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "联系我们",
+  "description": "与我们的团队取得联系",
+  "content": {
+    "heading": "联系我们",
+    "intro": "我们很乐意收到您的来信。请给我们发送消息，我们会尽快回复。",
+    "getInTouch": "联系方式",
+    "email": "邮箱",
+    "phone": "电话",
+    "address": "地址",
+    "businessHours": "营业时间",
+    "weekdays": "周一至周五：上午9:00 - 下午6:00 (PST)",
+    "saturday": "周六：上午10:00 - 下午4:00 (PST)",
+    "sunday": "周日：休息",
+    "contactInfo": {
+      "emailValue": "contact@saastemplate.com",
+      "phoneValue": "+1 (555) 123-4567",
+      "addressValue": "美国加利福尼亚州旧金山市科技街123号，邮编94102"
+    },
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "消息",
+      "sendMessage": "发送消息"
+    }
+  }
+}

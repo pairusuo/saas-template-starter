@@ -1,0 +1,9 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react-hooks/exhaustive-deps": "warn",
+    "react/no-unescaped-entities": "off"
+  },
+  "ignorePatterns": ["node_modules/", ".next/", "out/", "dist/", "*.config.js", "*.config.ts"]
+}

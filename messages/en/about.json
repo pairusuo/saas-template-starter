@@ -1,0 +1,106 @@
+{
+  "title": "About SaaS Template",
+  "description": "A comprehensive, production-ready SaaS application template built with modern technologies to accelerate your development journey",
+  "content": {
+    "heading": "About SaaS Template",
+    "intro1": "SaaS Template is a comprehensive, production-ready foundation for building modern Software-as-a-Service applications. Designed by experienced developers, it combines industry best practices with cutting-edge technologies to help you launch your SaaS product faster and more reliably.",
+    "intro2": "Our template eliminates months of initial development work by providing a robust, scalable architecture that handles authentication, user management, billing, internationalization, and more out of the box.",
+
+    "featuresHeading": "What's Included",
+    "features": {
+      "authentication": {
+        "title": "Advanced Authentication",
+        "description": "OAuth integration with Google and GitHub, secure session management, and role-based access control"
+      },
+      "ui": {
+        "title": "Modern UI Components",
+        "description": "Beautiful, accessible UI built with Tailwind CSS and shadcn/ui components with dark mode support"
+      },
+      "internationalization": {
+        "title": "Multi-language Support",
+        "description": "Built-in internationalization with English and Chinese support, easily extensible to other languages"
+      },
+      "dashboard": {
+        "title": "Feature-rich Dashboard",
+        "description": "Complete user dashboard with profile management, settings, usage analytics, and billing integration"
+      },
+      "responsive": {
+        "title": "Mobile-First Design",
+        "description": "Fully responsive design that works perfectly on desktop, tablet, and mobile devices"
+      },
+      "seo": {
+        "title": "SEO Optimized",
+        "description": "Built-in SEO optimization with sitemap generation, meta tags, and search engine friendly URLs"
+      }
+    },
+
+    "techStackHeading": "Technology Stack",
+    "techStack": {
+      "frontend": {
+        "title": "Frontend",
+        "technologies": ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS", "shadcn/ui"]
+      },
+      "backend": {
+        "title": "Backend & Auth",
+        "technologies": ["NextAuth.js", "API Routes", "Middleware", "JWT Sessions"]
+      },
+      "tools": {
+        "title": "Development Tools",
+        "technologies": ["ESLint", "Prettier", "Husky", "lint-staged", "TypeScript"]
+      },
+      "deployment": {
+        "title": "Deployment Ready",
+        "technologies": ["Vercel", "Docker Support", "Environment Config", "CI/CD Ready"]
+      }
+    },
+
+    "whyChooseHeading": "Why Choose SaaS Template?",
+    "whyChoose": {
+      "timeToMarket": {
+        "title": "Faster Time to Market",
+        "description": "Skip months of initial development. Our template provides a solid foundation so you can focus on your unique business logic."
+      },
+      "bestPractices": {
+        "title": "Industry Best Practices",
+        "description": "Built following modern development standards, security guidelines, and performance optimization techniques."
+      },
+      "scalable": {
+        "title": "Scalable Architecture",
+        "description": "Designed to grow with your business. From startup to enterprise, our architecture scales with your needs."
+      },
+      "community": {
+        "title": "Community Driven",
+        "description": "Open source with active community support. Continuous updates and improvements based on real-world usage."
+      }
+    },
+
+    "valuesHeading": "Our Core Values",
+    "values": {
+      "quality": {
+        "title": "Code Quality",
+        "description": "We prioritize clean, maintainable code with comprehensive TypeScript support and thorough testing"
+      },
+      "performance": {
+        "title": "Performance First",
+        "description": "Optimized for speed with lazy loading, efficient bundling, and modern performance techniques"
+      },
+      "security": {
+        "title": "Security by Design",
+        "description": "Built-in security features including CSRF protection, secure headers, and OAuth best practices"
+      },
+      "developer": {
+        "title": "Developer Experience",
+        "description": "Excellent DX with hot reload, TypeScript intellisense, and comprehensive documentation"
+      }
+    },
+
+    "getStartedHeading": "Ready to Get Started?",
+    "getStartedText": "Join thousands of developers who have chosen SaaS Template to build their next successful SaaS application. Whether you're a startup founder, freelance developer, or enterprise team, our template provides the foundation you need.",
+    "features2": {
+      "documentation": "📚 Comprehensive documentation and setup guides",
+      "support": "💬 Community support and regular updates",
+      "customizable": "🎨 Fully customizable to match your brand",
+      "production": "🚀 Production-ready with deployment guides"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "招聘",
+  "description": "加入我们的团队，共同构建 SaaS 的未来",
+  "content": {
+    "heading": "招聘",
+    "intro": "加入我们的团队，帮助我们构建 SaaS 开发的未来。我们一直在寻找对技术和创新充满热情的优秀人才。",
+    "whyWorkWithUs": {
+      "title": "为什么与我们合作？",
+      "innovation": {
+        "title": "🚀 创新",
+        "description": "参与前沿技术工作，塑造 Web 开发的未来。"
+      },
+      "growth": {
+        "title": "🌱 成长",
+        "description": "持续的学习机会和职业发展路径。"
+      },
+      "flexibility": {
+        "title": "🏠 灵活性",
+        "description": "远程优先的文化和灵活的工作时间。"
+      },
+      "benefits": {
+        "title": "💰 福利",
+        "description": "有竞争力的薪资、股权和全面的福利套餐。"
+      }
+    },
+    "openPositions": {
+      "title": "职位空缺",
+      "seniorFrontend": {
+        "title": "高级前端开发工程师",
+        "description": "我们正在寻找一位经验丰富的前端开发工程师来帮助构建我们的下一代 SaaS 平台。",
+        "applyNow": "立即申请"
+      },
+      "backendEngineer": {
+        "title": "后端工程师",
+        "description": "加入我们的后端团队，构建可扩展的高性能 API 和服务。",
+        "applyNow": "立即申请"
+      }
+    }
+  }
+}

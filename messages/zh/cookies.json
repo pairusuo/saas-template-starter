@@ -1,0 +1,44 @@
+{
+  "title": "Cookie 政策",
+  "description": "我们的 Cookie 政策以及我们如何使用 Cookie",
+  "content": {
+    "heading": "Cookie 政策",
+    "lastUpdated": "最后更新",
+    "sections": {
+      "whatAreCookies": {
+        "title": "什么是 Cookie",
+        "content": "Cookie 是当您访问我们的网站时放置在您设备上的小文本文件。它们通过记住您的偏好并启用某些功能来帮助我们为您提供更好的体验。"
+      },
+      "howWeUse": {
+        "title": "我们如何使用 Cookie",
+        "intro": "我们将 Cookie 用于以下目的：",
+        "types": {
+          "essential": {
+            "title": "必要 Cookie",
+            "description": "网站正常运行所必需的"
+          },
+          "analytics": {
+            "title": "分析 Cookie",
+            "description": "帮助我们了解访问者如何与我们的网站互动"
+          },
+          "preference": {
+            "title": "偏好 Cookie",
+            "description": "记住您的设置和偏好"
+          },
+          "marketing": {
+            "title": "营销 Cookie",
+            "description": "用于投放相关广告"
+          }
+        }
+      },
+      "managing": {
+        "title": "管理 Cookie",
+        "content": "您可以在浏览器设置中控制和管理 Cookie。请注意，禁用某些 Cookie 可能会影响我们网站的功能。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "content": "如果您对我们使用 Cookie 有任何问题，请通过以下方式联系我们：privacy@saastemplate.com"
+      }
+    }
+  }
+}

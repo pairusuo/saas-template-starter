@@ -1,0 +1,34 @@
+{
+  "title": "Examples",
+  "description": "See our SaaS template in action",
+  "content": {
+    "heading": "Examples",
+    "liveExamples": {
+      "title": "Live Examples",
+      "dashboard": {
+        "title": "Dashboard Demo",
+        "description": "Interactive dashboard with charts and analytics.",
+        "viewDemo": "View Demo →"
+      },
+      "authFlow": {
+        "title": "Auth Flow",
+        "description": "Complete authentication and user management system.",
+        "viewDemo": "View Demo →"
+      },
+      "billing": {
+        "title": "Billing Integration",
+        "description": "Stripe integration with subscription management.",
+        "viewDemo": "View Demo →"
+      }
+    },
+    "codeExamples": {
+      "title": "Code Examples",
+      "apiRoute": {
+        "title": "API Route Example"
+      },
+      "databaseQuery": {
+        "title": "Database Query Example"
+      }
+    }
+  }
+}

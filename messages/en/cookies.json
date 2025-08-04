@@ -1,0 +1,44 @@
+{
+  "title": "Cookie Policy",
+  "description": "Our cookie policy and how we use cookies",
+  "content": {
+    "heading": "Cookie Policy",
+    "lastUpdated": "Last updated",
+    "sections": {
+      "whatAreCookies": {
+        "title": "What Are Cookies",
+        "content": "Cookies are small text files that are placed on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and enabling certain functionality."
+      },
+      "howWeUse": {
+        "title": "How We Use Cookies",
+        "intro": "We use cookies for the following purposes:",
+        "types": {
+          "essential": {
+            "title": "Essential Cookies",
+            "description": "Required for the website to function properly"
+          },
+          "analytics": {
+            "title": "Analytics Cookies",
+            "description": "Help us understand how visitors interact with our website"
+          },
+          "preference": {
+            "title": "Preference Cookies",
+            "description": "Remember your settings and preferences"
+          },
+          "marketing": {
+            "title": "Marketing Cookies",
+            "description": "Used to deliver relevant advertisements"
+          }
+        }
+      },
+      "managing": {
+        "title": "Managing Cookies",
+        "content": "You can control and manage cookies in your browser settings. Please note that disabling certain cookies may impact the functionality of our website."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about our use of cookies, please contact us at: privacy@saastemplate.com"
+      }
+    }
+  }
+}

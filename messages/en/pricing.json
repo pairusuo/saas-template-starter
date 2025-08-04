@@ -1,0 +1,164 @@
+{
+  "title": "Choose Your Plan",
+  "subtitle": "Select the perfect plan for your needs. Upgrade or downgrade at any time.",
+  "billingToggle": {
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "saveText": "Save 20%"
+  },
+  "plans": {
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect for individuals and small projects",
+      "price": {
+        "monthly": 0,
+        "annual": 0
+      },
+      "currency": "$",
+      "period": {
+        "monthly": "/month",
+        "annual": "/year"
+      },
+      "features": [
+        "Up to 1,000 API calls/month",
+        "1 GB storage",
+        "Email support",
+        "Basic analytics",
+        "Community access"
+      ],
+      "popular": false,
+      "buttonText": "Get Started",
+      "buttonVariant": "outline"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "Ideal for growing businesses and teams",
+      "price": {
+        "monthly": 29,
+        "annual": 24
+      },
+      "currency": "$",
+      "period": {
+        "monthly": "/month",
+        "annual": "/month"
+      },
+      "features": [
+        "Up to 25,000 API calls/month",
+        "50 GB storage",
+        "Priority email support",
+        "Advanced analytics",
+        "Team collaboration",
+        "Custom integrations",
+        "Priority support"
+      ],
+      "popular": true,
+      "buttonText": "Start Free Trial",
+      "buttonVariant": "default"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For large organizations with advanced needs",
+      "price": {
+        "monthly": 99,
+        "annual": 79
+      },
+      "currency": "$",
+      "period": {
+        "monthly": "/month",
+        "annual": "/month"
+      },
+      "features": [
+        "Unlimited API calls",
+        "500 GB storage",
+        "24/7 phone & email support",
+        "Advanced analytics & reporting",
+        "Team management",
+        "Custom integrations",
+        "SLA guarantee",
+        "Dedicated account manager",
+        "Custom branding"
+      ],
+      "popular": false,
+      "buttonText": "Contact Sales",
+      "buttonVariant": "outline"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Can I change my plan at any time?",
+        "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+      },
+      {
+        "question": "Is there a free trial?",
+        "answer": "Yes, we offer a 14-day free trial for our Professional and Enterprise plans. No credit card required."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal."
+      },
+      {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period."
+      },
+      {
+        "question": "Do you offer refunds?",
+        "answer": "We offer a 30-day money-back guarantee for all paid plans. Contact our support team for assistance."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Feature Comparison",
+    "subtitle": "Compare all features across our plans",
+    "feature": "Feature",
+    "apiCalls": "API Calls",
+    "projects": "Projects",
+    "support": "Support",
+    "analytics": "Analytics",
+    "customDomain": "Custom Domain",
+    "sla": "SLA Guarantee",
+    "values": {
+      "apiCalls": {
+        "starter": "1,000/month",
+        "professional": "25,000/month",
+        "enterprise": "Unlimited"
+      },
+      "projects": {
+        "starter": "1",
+        "professional": "Unlimited",
+        "enterprise": "Unlimited"
+      },
+      "support": {
+        "starter": "Community",
+        "professional": "Email",
+        "enterprise": "24/7 Phone"
+      }
+    }
+  },
+  "mostPopular": "Most Popular",
+  "chooseYourPlan": "Choose Your Plan",
+  "upgradeOrDowngrade": "Upgrade or Downgrade",
+  "currentPlan": "Current Plan",
+  "selectPlan": "Select Plan",
+  "switchPlan": "Switch Plan",
+  "processing": "Processing...",
+  "noFeaturesAvailable": "No features available",
+  "billingHistory": "Billing History",
+  "noBillingHistory": "No billing history available",
+  "invoicesWillShow": "Your invoices and payment history will appear here",
+  "canceling": "Canceling...",
+  "opening": "Opening...",
+  "manageBilling": "Manage Billing",
+  "features": {
+    "title": "All plans include",
+    "items": [
+      "SSL encryption",
+      "99.9% uptime guarantee",
+      "Regular backups",
+      "Mobile app access",
+      "API documentation",
+      "Developer tools"
+    ]
+  }
+}

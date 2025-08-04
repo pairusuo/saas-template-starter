@@ -1,0 +1,181 @@
+{
+  "title": "Privacy Policy",
+  "description": "Our privacy policy and data protection practices",
+  "content": {
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "effectiveDate": "Effective Date: January 1, 2024",
+    "introduction": {
+      "content": "This Privacy Policy describes how we collect, use, and protect your information when you use our services. By using our service, you agree to the collection and use of information in accordance with this policy."
+    },
+    "sections": {
+      "infoCollect": {
+        "title": "Information We Collect",
+        "intro": "We collect several types of information from and about users of our service:",
+        "subsections": {
+          "personalInfo": {
+            "title": "Personal Information",
+            "content": "Information you provide directly to us, such as when you create an account, use our services, or contact us for support:",
+            "items": [
+              "Name and contact information (email address, phone number)",
+              "Account credentials and profile information",
+              "Payment information (processed securely through third-party providers)",
+              "Communications with us (support tickets, feedback)"
+            ]
+          },
+          "usageInfo": {
+            "title": "Usage Information",
+            "content": "Information automatically collected when you use our service:",
+            "items": [
+              "Device information (IP address, browser type, operating system)",
+              "Usage data and analytics (pages visited, features used, time spent)",
+              "Log files and error reports",
+              "Cookies and similar tracking technologies"
+            ]
+          },
+          "thirdPartyInfo": {
+            "title": "Third-Party Information",
+            "content": "Information we may receive from third-party services you connect to our platform:",
+            "items": [
+              "Social media profile information (if you sign in via social media)",
+              "Integration data from connected services",
+              "Public information from your linked accounts"
+            ]
+          }
+        }
+      },
+      "howWeUse": {
+        "title": "How We Use Your Information",
+        "intro": "We use the information we collect for the following purposes:",
+        "categories": {
+          "serviceProvision": {
+            "title": "Service Provision",
+            "items": [
+              "Provide, maintain, and improve our services",
+              "Process transactions and manage your account",
+              "Authenticate users and prevent fraud",
+              "Provide customer support and respond to inquiries"
+            ]
+          },
+          "communication": {
+            "title": "Communication",
+            "items": [
+              "Send technical notices and security alerts",
+              "Provide updates about our services",
+              "Send marketing communications (with your consent)",
+              "Respond to comments and questions"
+            ]
+          },
+          "analytics": {
+            "title": "Analytics and Improvement",
+            "items": [
+              "Analyze usage patterns and trends",
+              "Conduct research and development",
+              "Monitor and analyze the effectiveness of our services",
+              "Generate aggregated, anonymized statistics"
+            ]
+          }
+        }
+      },
+      "legalBasis": {
+        "title": "Legal Basis for Processing (GDPR)",
+        "intro": "If you are located in the European Economic Area (EEA), our legal basis for collecting and using your personal information depends on the specific context:",
+        "items": [
+          "Contract performance: To provide our services to you",
+          "Legitimate interests: To improve our services and communicate with you",
+          "Consent: For marketing communications and optional features",
+          "Legal compliance: To comply with applicable laws and regulations"
+        ]
+      },
+      "infoSharing": {
+        "title": "Information Sharing and Disclosure",
+        "intro": "We do not sell, trade, or otherwise transfer your personal information to third parties, except in the following circumstances:",
+        "circumstances": {
+          "serviceProviders": {
+            "title": "Service Providers",
+            "content": "We may share information with trusted third-party service providers who assist us in operating our service, such as payment processors, hosting providers, and analytics services."
+          },
+          "legalRequirements": {
+            "title": "Legal Requirements",
+            "content": "We may disclose information if required by law, court order, or governmental request, or to protect our rights, property, or safety."
+          },
+          "businessTransfer": {
+            "title": "Business Transfers",
+            "content": "In the event of a merger, acquisition, or sale of assets, your information may be transferred as part of the transaction."
+          },
+          "consent": {
+            "title": "With Your Consent",
+            "content": "We may share information with your explicit consent for specific purposes not covered in this policy."
+          }
+        }
+      },
+      "dataRetention": {
+        "title": "Data Retention",
+        "content": "We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this policy. We will delete or anonymize your information when it is no longer needed, unless we are required to retain it for legal compliance."
+      },
+      "dataSecurity": {
+        "title": "Data Security",
+        "intro": "We implement appropriate technical and organizational security measures to protect your personal information:",
+        "measures": [
+          "Encryption of data in transit and at rest",
+          "Regular security assessments and monitoring",
+          "Access controls and authentication mechanisms",
+          "Staff training on data protection practices",
+          "Incident response procedures"
+        ],
+        "disclaimer": "However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+      },
+      "yourRights": {
+        "title": "Your Rights and Choices",
+        "intro": "Depending on your location, you may have the following rights regarding your personal information:",
+        "rights": [
+          "Access: Request a copy of the personal information we hold about you",
+          "Rectification: Request correction of inaccurate or incomplete information",
+          "Erasure: Request deletion of your personal information",
+          "Portability: Request transfer of your data to another service",
+          "Restriction: Request limitation of processing in certain circumstances",
+          "Objection: Object to processing based on legitimate interests",
+          "Withdraw consent: Withdraw consent for processing where applicable"
+        ],
+        "exercising": "To exercise these rights, please contact us using the information provided in the 'Contact Us' section."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking Technologies",
+        "intro": "We use cookies and similar technologies to enhance your experience and analyze usage patterns:",
+        "types": {
+          "essential": "Essential cookies: Required for basic functionality",
+          "analytics": "Analytics cookies: Help us understand how you use our service",
+          "functional": "Functional cookies: Remember your preferences and settings",
+          "marketing": "Marketing cookies: Used for targeted advertising (with consent)"
+        },
+        "control": "You can control cookie settings through your browser preferences, but disabling certain cookies may affect functionality."
+      },
+      "thirdPartyServices": {
+        "title": "Third-Party Services",
+        "content": "Our service may contain links to third-party websites or integrate with third-party services. This privacy policy does not apply to those external services, and we encourage you to review their privacy policies."
+      },
+      "internationalTransfers": {
+        "title": "International Data Transfers",
+        "content": "Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your information in accordance with applicable data protection laws."
+      },
+      "minors": {
+        "title": "Children's Privacy",
+        "content": "Our service is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal information, please contact us."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "content": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new policy on this page and updating the 'Last Updated' date. Your continued use of our service after changes constitutes acceptance of the updated policy."
+      },
+      "contactUs": {
+        "title": "Contact Us",
+        "intro": "If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us:",
+        "methods": {
+          "email": "Email: privacy@saastemplate.com",
+          "address": "Address: [Your Company Address]",
+          "phone": "Phone: [Your Phone Number]"
+        },
+        "dpo": "If you are in the EU, you may also contact our Data Protection Officer at: dpo@saastemplate.com"
+      }
+    }
+  }
+}

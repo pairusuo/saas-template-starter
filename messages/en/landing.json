@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "title": "Build Modern SaaS Application in days",
+    "titleHighlight": "SaaS Application",
+    "subtitle": "Complete SaaS template based on Next.js 14, with authentication, payments, database, and deployment. Focus on your core product features, not infrastructure.",
+    "announcement": "🚀 New: Enhanced UI Components & A/B Testing Ready",
+    "getStarted": "Get Started",
+    "viewDemo": "View Demo",
+    "viewPricing": "View Pricing",
+    "socialProof": {
+      "users": "10,000+ developers",
+      "rating": "from 500+ reviews"
+    },
+    "stats": {
+      "uptime": "Uptime",
+      "activeUsers": "Active Users",
+      "responseTime": "Response Time",
+      "support": "Support"
+    }
+  },
+  "features": {
+    "title": "Everything You Need to Ship Fast",
+    "subtitle": "Comprehensive toolkit with enterprise-grade features, modern architecture, and developer-first experience",
+    "badge": "Features",
+    "items": {
+      "security": {
+        "title": "Enterprise Security",
+        "description": "Built-in multi-layer security protection, including anti-fraud systems, security headers, and API rate limiting."
+      },
+      "performance": {
+        "title": "Lightning Fast",
+        "description": "Based on Next.js 14 and modern architecture, providing millisecond response speeds."
+      },
+      "database": {
+        "title": "Type-Safe Database",
+        "description": "Drizzle ORM with TypeScript for reliable, scalable data management."
+      },
+      "payments": {
+        "title": "Payment Ready",
+        "description": "Stripe integration with subscription management, invoicing, and webhooks."
+      },
+      "auth": {
+        "title": "Authentication",
+        "description": "NextAuth.js with social logins, magic links, and enterprise SSO."
+      },
+      "analytics": {
+        "title": "Built-in Analytics",
+        "description": "User tracking, conversion funnels, and business intelligence dashboards."
+      },
+      "mobile": {
+        "title": "Mobile First",
+        "description": "Responsive design with PWA support and native-like experience."
+      },
+      "deployment": {
+        "title": "Deploy Anywhere",
+        "description": "Support for Vercel, AWS, and traditional hosting platforms."
+      }
+    }
+  },
+  "socialProof": {
+    "title": "Trusted by Developers Worldwide",
+    "subtitle": "Join thousands of developers building successful SaaS products",
+    "joinedDevelopers": "10,000+ developers have joined",
+    "trustedBy": "Trusted by startups and enterprises",
+    "trustedByCompanies": "Trusted by companies worldwide",
+    "reviewCount": "500+ reviews",
+    "stats": {
+      "developers": "Developers",
+      "requests": "API Requests",
+      "uptime": "Uptime",
+      "rating": "Average Rating"
+    },
+    "testimonials": {
+      "sarah": "This template saved us months of development. The code quality is outstanding.",
+      "david": "Perfect for rapid prototyping. We launched our MVP in just few days. Nice Job.",
+      "emily": "One of the best SaaS starter I've used. Great documentation and support."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your project. All plans include core features and lifetime updates.",
+    "badge": "Pricing",
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "save20": "Save 20%"
+    },
+    "comparison": {
+      "title": "Compare Features",
+      "subtitle": "Detailed comparison of what's included in each plan",
+      "feature": "Feature",
+      "apiCalls": "API Calls",
+      "projects": "Projects",
+      "support": "Support",
+      "analytics": "Advanced Analytics",
+      "customDomain": "Custom Domain",
+      "sla": "SLA Guarantee"
+    },
+    "plans": {
+      "free": {
+        "name": "Starter",
+        "price": "$0",
+        "period": "/month",
+        "description": "Perfect for individual developers and small projects",
+        "features": [
+          "Complete source code",
+          "Next.js 14 + TypeScript",
+          "Authentication & Database",
+          "Basic payment integration",
+          "Email support",
+          "Community access"
+        ],
+        "notIncluded": ["Advanced components", "Priority support", "Custom integrations"],
+        "cta": "Get Started Free"
+      },
+      "pro": {
+        "name": "Professional",
+        "price": "$199",
+        "period": "/one-time",
+        "description": "Everything you need to build and scale your SaaS",
+        "features": [
+          "Everything in Starter",
+          "Advanced UI components",
+          "Analytics dashboard",
+          "Multi-tenant support",
+          "API documentation",
+          "Priority email support",
+          "Deployment guides",
+          "Lifetime updates"
+        ],
+        "notIncluded": ["Custom development", "1-on-1 calls"],
+        "cta": "Get Pro Access"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "$499",
+        "period": "/one-time",
+        "description": "For teams that need custom solutions and direct support",
+        "features": [
+          "Everything in Pro",
+          "Custom integrations",
+          "White-label license",
+          "1-on-1 onboarding call",
+          "Custom components",
+          "Architecture consultation",
+          "24/7 priority support",
+          "Source code escrow"
+        ],
+        "notIncluded": [],
+        "cta": "Contact Sales"
+      }
+    },
+    "popular": "Most Popular",
+    "included": "What's included:",
+    "notIncluded": "Not included:"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our SaaS template",
+    "badge": "FAQ",
+    "searchPlaceholder": "Search questions...",
+    "stillHaveQuestions": "Still have questions?",
+    "contactSupport": "Contact Support",
+    "items": {
+      "pricing": {
+        "question": "How does the pricing work?",
+        "answer": "Our template is a one-time purchase with lifetime access. You pay once and get all future updates for free. No monthly subscriptions or hidden fees."
+      },
+      "features": {
+        "question": "What's included in the template?",
+        "answer": "You get complete source code, authentication system, payment integration, database setup, UI components, documentation, and deployment guides. Everything you need to build a modern SaaS application."
+      },
+      "support": {
+        "question": "What kind of support do you provide?",
+        "answer": "We provide email support for all customers, priority support for Pro users, and 1-on-1 calls for Enterprise customers. We also have an active community Discord server."
+      },
+      "integration": {
+        "question": "Can I integrate with my existing tools?",
+        "answer": "Yes! The template is built with modern, standard technologies that integrate well with most tools. We provide guides for popular services like Analytics, CRM, and monitoring tools."
+      },
+      "customization": {
+        "question": "How customizable is the template?",
+        "answer": "Extremely customizable! The code is clean, well-documented, and modular. You can modify anything from colors and fonts to complete functionality. We also offer custom development services."
+      },
+      "deployment": {
+        "question": "How do I deploy my application?",
+        "answer": "We provide detailed deployment guides for Vercel, Netlify, AWS, DigitalOcean, and other platforms. Most deployments can be done with just a few clicks."
+      },
+      "updates": {
+        "question": "Do I get updates?",
+        "answer": "Yes! All customers get lifetime updates including new features, security patches, and compatibility updates. Updates are delivered through our customer portal."
+      },
+      "refund": {
+        "question": "What's your refund policy?",
+        "answer": "We offer a 30-day money-back guarantee. If you're not satisfied with the template for any reason, contact us within 30 days for a full refund."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What Developers Are Saying",
+    "subtitle": "Join thousands of developers who have built successful products with our template",
+    "items": [
+      {
+        "name": "Sarah Chen",
+        "role": "Founder, TechStart",
+        "content": "This template saved us 6 months of development time. We went from idea to paying customers in just 3 weeks. The code quality is exceptional."
+      },
+      {
+        "name": "David Rodriguez",
+        "role": "CTO, InnovateAI",
+        "content": "Best investment we made. The authentication and payment systems work flawlessly. Our team could focus on building our core features instead of boilerplate."
+      },
+      {
+        "name": "Emily Johnson",
+        "role": "Solo Developer",
+        "content": "As a solo developer, this template gave me superpowers. I built and launched my SaaS in 2 weeks instead of 2 months. The documentation is incredible."
+      },
+      {
+        "name": "Michael Zhang",
+        "role": "Product Manager, StartupXYZ",
+        "content": "The architecture is solid and scalable. We've grown from 0 to 10,000 users without any major issues. The template handles everything beautifully."
+      },
+      {
+        "name": "Lisa Williams",
+        "role": "Lead Developer, SaaS Co",
+        "content": "The code quality exceeded our expectations. Clean, well-documented, and follows industry best practices. Our whole team was productive from day one."
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Indie Hacker",
+        "content": "This template is a game-changer for indie hackers. Everything just works out of the box. I've built 3 successful SaaS products using it."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Build Your Next SaaS?",
+    "subtitle": "Join thousands of developers who have shipped successful products with our template. Start building today and focus on what matters most - your users.",
+    "badge": "Get Started",
+    "getStarted": "Start Building Now",
+    "contactUs": "Talk to Sales",
+    "features": "30-day money-back guarantee • Lifetime updates • No subscription",
+    "banner": {
+      "title": "Start Building Today",
+      "subtitle": "Get instant access to the complete source code and start shipping your SaaS."
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get notified about new features and updates",
+      "placeholder": "Enter your email..."
+    },
+    "contact": {
+      "phone": "1-800-SAAS-HELP",
+      "email": "hello@saastemplate.com"
+    }
+  },
+  "techStack": {
+    "title": "Built with Modern Technologies",
+    "description": "Our template leverages the best tools and frameworks to ensure performance, scalability, and developer experience.",
+    "items": {
+      "nextjs": "React framework for production",
+      "typescript": "Type-safe JavaScript",
+      "tailwind": "Utility-first CSS framework",
+      "drizzle": "Type-safe SQL ORM",
+      "nextauth": "Authentication for Next.js",
+      "stripe": "Payment processing",
+      "resend": "Email delivery platform",
+      "vercel": "Deployment and hosting"
+    }
+  }
+}

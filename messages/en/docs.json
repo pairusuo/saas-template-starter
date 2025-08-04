@@ -1,0 +1,48 @@
+{
+  "title": "Documentation",
+  "description": "Learn how to use our SaaS template",
+  "content": {
+    "heading": "Documentation",
+    "gettingStarted": {
+      "title": "Getting Started",
+      "quickStart": {
+        "title": "🚀 Quick Start",
+        "description": "Get up and running with our SaaS template in minutes.",
+        "readMore": "Read more →"
+      },
+      "configuration": {
+        "title": "⚙️ Configuration",
+        "description": "Learn how to configure your application settings.",
+        "readMore": "Read more →"
+      }
+    },
+    "coreFeatures": {
+      "title": "Core Features",
+      "auth": {
+        "title": "Authentication & Authorization",
+        "description": "Secure user authentication with NextAuth.js and role-based access control."
+      },
+      "database": {
+        "title": "Database Integration",
+        "description": "PostgreSQL database with Drizzle ORM for type-safe database operations."
+      },
+      "payment": {
+        "title": "Payment Processing",
+        "description": "Stripe integration for handling subscriptions and payments."
+      },
+      "i18n": {
+        "title": "Internationalization",
+        "description": "Multi-language support with next-intl for global applications."
+      }
+    },
+    "apiReference": {
+      "title": "API Reference",
+      "availableEndpoints": "Available Endpoints",
+      "endpoints": {
+        "auth": "Authentication endpoints",
+        "users": "User management",
+        "billing": "Billing and subscriptions"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Guides",
+  "description": "Step-by-step guides for building with our SaaS template",
+  "content": {
+    "heading": "Guides",
+    "gettingStartedGuides": {
+      "title": "Getting Started Guides",
+      "environment": {
+        "title": "Setting Up Your Development Environment",
+        "description": "Learn how to set up Node.js, install dependencies, and configure your local development environment.",
+        "readTime": "⏱️ 10 min read",
+        "level": "👤 Beginner"
+      },
+      "database": {
+        "title": "Database Setup and Configuration",
+        "description": "Configure PostgreSQL, set up Drizzle ORM, and create your first database schema.",
+        "readTime": "⏱️ 15 min read",
+        "level": "👤 Beginner"
+      },
+      "auth": {
+        "title": "Authentication Implementation",
+        "description": "Implement secure authentication with NextAuth.js, configure providers, and set up protected routes.",
+        "readTime": "⏱️ 20 min read",
+        "level": "👤 Intermediate"
+      }
+    },
+    "advancedGuides": {
+      "title": "Advanced Guides",
+      "security": {
+        "title": "🔐 Advanced Security",
+        "description": "Implement advanced security features, rate limiting, and security headers.",
+        "meta": "👤 Advanced • ⏱️ 30 min"
+      },
+      "analytics": {
+        "title": "📊 Analytics Integration",
+        "description": "Add analytics tracking, custom events, and performance monitoring.",
+        "meta": "👤 Intermediate • ⏱️ 25 min"
+      },
+      "deployment": {
+        "title": "🚀 Deployment Guide",
+        "description": "Deploy your application to production with Vercel, AWS, or other platforms.",
+        "meta": "👤 Intermediate • ⏱️ 35 min"
+      },
+      "components": {
+        "title": "🔧 Custom Components",
+        "description": "Build reusable UI components and integrate with the design system.",
+        "meta": "👤 Intermediate • ⏱️ 40 min"
+      }
+    }
+  }
+}

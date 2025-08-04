@@ -1,0 +1,37 @@
+{
+  "title": "Blog",
+  "description": "Latest news and updates from our team",
+  "latestPosts": "Latest Posts",
+  "categories": "Categories",
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Stay up to date with the latest posts and announcements.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe"
+  },
+  "posts": {
+    "post1": {
+      "date": "March 15, 2024",
+      "title": "Building Scalable SaaS Applications",
+      "description": "Learn the key principles and best practices for building SaaS applications that can scale to millions of users."
+    },
+    "post2": {
+      "date": "March 10, 2024",
+      "title": "Modern Authentication Patterns",
+      "description": "Explore modern authentication patterns and how to implement them securely in your applications."
+    },
+    "post3": {
+      "date": "March 5, 2024",
+      "title": "Database Design for SaaS",
+      "description": "Design patterns and considerations for building multi-tenant SaaS databases."
+    }
+  },
+  "categoryLabels": {
+    "development": "Development",
+    "design": "Design",
+    "business": "Business",
+    "security": "Security",
+    "performance": "Performance"
+  },
+  "readMore": "Read more →"
+}
