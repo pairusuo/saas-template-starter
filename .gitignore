@@ -79,11 +79,11 @@ web_modules/
 
 # Optional eslint cache
 .eslintcache
-
+ 
 # Optional stylelint cache
 .stylelintcache
 
-# Microbundle cache
+# Microbundle cachef
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
@@ -182,10 +182,10 @@ yarn.lock
 
 # Claude AI configuration (optional to keep)
 .claude/
+.codebuddy/
 
 # AI instruction files
 .aiinstructions
 
 # self-define
-local_service.sh
 .swc/

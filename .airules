@@ -1,0 +1,32 @@
+# AI Assistant Rules for SaaS Template Starter
+
+## Code Management Rules
+
+### Git Operations
+- **Never commit code automatically**: AI should not run `git commit` or `git push` commands without explicit user instruction
+- **Commit message language**: All commit messages must be written in English, not Chinese
+- **User control**: Let the user review changes and commit manually when they are satisfied
+
+### Development Workflow
+- **Make changes only**: AI should focus on making code changes, file modifications, and fixes
+- **Present results**: Show what has been changed and let user decide when to commit
+- **No automatic deployment**: Avoid automatic CI/CD operations or deployments
+
+## Example Workflow
+1. AI makes requested changes to code
+2. AI reports what was changed
+3. User reviews the changes
+4. User manually commits with appropriate English commit message
+5. User pushes to repository when ready
+
+## Commit Message Format
+- Use conventional commits format: `type: description`
+- Examples:
+  - `feat: add new landing page component`
+  - `fix: resolve internationalization issues`
+  - `chore: update dependencies`
+  - `docs: update README documentation`
+
+## Notes
+- This file helps maintain consistent AI behavior
+- Focus on code quality and user control over version control
