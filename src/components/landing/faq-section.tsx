@@ -12,7 +12,7 @@ interface FAQSectionProps {
 }
 
 export function FAQSection({ config }: FAQSectionProps) {
-  const t = useTranslations('landing.faq');
+  const t = useTranslations('faq');
   const locale = useLocale();
   const router = useRouter();
   const [openItem, setOpenItem] = useState<string | null>(null);

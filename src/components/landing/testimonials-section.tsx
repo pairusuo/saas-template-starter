@@ -9,7 +9,7 @@ interface TestimonialsSectionProps {
 }
 
 export function TestimonialsSection({ config }: TestimonialsSectionProps) {
-  const t = useTranslations('landing.testimonials');
+  const t = useTranslations('testimonials');
 
   // Add error handling and debugging information
   let testimonials: Array<{

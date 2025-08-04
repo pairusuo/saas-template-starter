@@ -32,7 +32,7 @@ interface FeaturesSectionProps {
 export function FeaturesSection({ config }: FeaturesSectionProps) {
   const params = useParams();
   const locale = params.locale as string;
-  const t = useTranslations('landing.features');
+  const t = useTranslations('features');
 
   const {
     variant = 'grid',

@@ -17,7 +17,7 @@ interface HeroSectionProps {
 export function HeroSection({ config }: HeroSectionProps) {
   const params = useParams();
   const locale = params.locale as string;
-  const t = useTranslations('landing.hero');
+  const t = useTranslations('hero');
 
   const {
     variant = 'centered',

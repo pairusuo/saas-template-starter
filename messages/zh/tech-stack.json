@@ -1,0 +1,15 @@
+{
+  "title": "使用现代化技术构建",
+  "subtitle": "我们的模板利用最佳工具和框架来确保性能、可扩展性和开发者体验",
+  "badge": "技术栈",
+  "items": {
+    "nextjs": "用于生产的 React 框架",
+    "typescript": "类型安全的 JavaScript",
+    "tailwind": "实用优先的 CSS 框架",
+    "drizzle": "类型安全的 SQL ORM",
+    "nextauth": "Next.js 身份验证",
+    "stripe": "支付处理",
+    "resend": "邮件发送平台",
+    "vercel": "部署和托管"
+  }
+}

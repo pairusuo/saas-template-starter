@@ -1,0 +1,19 @@
+{
+  "title": "Build Modern SaaS Application in days",
+  "titleHighlight": "SaaS Application",
+  "subtitle": "Complete SaaS template based on Next.js 14, with authentication, payments, database, and deployment. Focus on your core product features, not infrastructure.",
+  "announcement": "🚀 New: Enhanced UI Components & A/B Testing Ready",
+  "getStarted": "Get Started",
+  "viewDemo": "View Demo",
+  "viewPricing": "View Pricing",
+  "socialProof": {
+    "users": "10,000+ developers",
+    "rating": "from 500+ reviews"
+  },
+  "stats": {
+    "uptime": "Uptime",
+    "activeUsers": "Active Users",
+    "responseTime": "Response Time",
+    "support": "Support"
+  }
+}

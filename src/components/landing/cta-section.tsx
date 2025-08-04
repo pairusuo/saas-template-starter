@@ -18,7 +18,7 @@ interface CTASectionProps {
 export function CTASection({ config }: CTASectionProps) {
   const params = useParams();
   const locale = params.locale as string;
-  const t = useTranslations('landing.cta');
+  const t = useTranslations('cta');
 
   const {
     variant = 'simple',

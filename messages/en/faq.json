@@ -1,0 +1,42 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Handle objections before they happen. Everything you need to know about our SaaS template",
+  "badge": "FAQ",
+  "searchPlaceholder": "Search questions...",
+  "stillHaveQuestions": "Still have questions?",
+  "contactSupport": "Contact Support",
+  "items": {
+    "pricing": {
+      "question": "What's included in the template?",
+      "answer": "Complete source code, authentication system, payment integration, database setup, deployment guides, and comprehensive documentation."
+    },
+    "features": {
+      "question": "Do I get lifetime updates?",
+      "answer": "Yes! All plans include free updates for the specified period. Pro and Enterprise plans get extended update periods."
+    },
+    "support": {
+      "question": "What kind of support do you provide?",
+      "answer": "We provide email support for all customers, with priority support for Pro and Enterprise customers. Enterprise customers also get dedicated support."
+    },
+    "integration": {
+      "question": "How easy is it to integrate with existing systems?",
+      "answer": "Very easy! Our template is built with modern APIs and follows industry standards, making integration straightforward with most existing systems."
+    },
+    "customization": {
+      "question": "Is the code customizable?",
+      "answer": "Yes, the code is fully customizable. It's built with modern, clean architecture that makes it easy to modify and extend."
+    },
+    "deployment": {
+      "question": "How do I deploy the application?",
+      "answer": "We provide comprehensive deployment guides for Vercel, AWS, and other platforms. Most deployments can be done with just a few clicks."
+    },
+    "updates": {
+      "question": "How often do you release updates?",
+      "answer": "We release updates regularly, typically monthly for bug fixes and quarterly for new features. All customers get notified of updates."
+    },
+    "refund": {
+      "question": "Do you offer refunds?",
+      "answer": "Yes, we offer a 30-day money-back guarantee. If you're not satisfied with the template, we'll provide a full refund."
+    }
+  }
+}

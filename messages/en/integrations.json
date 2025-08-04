@@ -1,0 +1,14 @@
+{
+  "title": "Perfect Integration with Your Tech Stack",
+  "subtitle": "Seamless integration with mainstream services and tools for more efficient development",
+  "badge": "Integrations",
+  "moreIntegrations": "More integrations waiting for you to explore...",
+  "items": {
+    "stripe": "Payment processing and subscription management",
+    "vercel": "One-click deployment and hosting service",
+    "supabase": "Backend as a Service platform",
+    "resend": "Modern email delivery service",
+    "clerk": "User authentication and management",
+    "prisma": "Next-generation database toolkit"
+  }
+}

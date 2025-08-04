@@ -1,0 +1,27 @@
+{
+  "title": "Why Choose Us",
+  "subtitle": "Make your strengths obvious, focus on the most important value propositions",
+  "badge": "Core Advantages",
+  "items": {
+    "security": {
+      "title": "Enterprise Security",
+      "description": "Built-in multi-layer security protection, including anti-fraud systems, security headers, and API rate limiting",
+      "highlight": "Security audit certified"
+    },
+    "performance": {
+      "title": "Ultimate Performance",
+      "description": "Based on Next.js 14 and modern architecture, providing millisecond response speeds",
+      "highlight": "Perfect Core Web Vitals score"
+    },
+    "codeQuality": {
+      "title": "Code Quality",
+      "description": "Follows industry best practices, clean code, well-documented, and easy to maintain",
+      "highlight": "TypeScript strict mode"
+    },
+    "support": {
+      "title": "Professional Support",
+      "description": "Comprehensive technical support and detailed documentation guidance",
+      "highlight": "24/7 technical support"
+    }
+  }
+}

@@ -8,7 +8,7 @@ interface TechStackSectionProps {
 }
 
 export function TechStackSection({ config }: TechStackSectionProps) {
-  const t = useTranslations('landing.techStack');
+  const t = useTranslations('tech-stack');
 
   const techStack = [
     {

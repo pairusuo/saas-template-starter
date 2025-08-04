@@ -1,0 +1,13 @@
+{
+  "title": "Data Speaks Louder Than Marketing",
+  "subtitle": "Real metrics that demonstrate the reliability and performance of our template",
+  "badge": "Statistics",
+  "uptime": "Uptime",
+  "uptimeDesc": "99.9% service availability guarantee",
+  "activeUsers": "Active Users", 
+  "activeUsersDesc": "Monthly active developers",
+  "responseTime": "Response Time",
+  "responseTimeDesc": "Average API response speed",
+  "satisfaction": "Satisfaction",
+  "satisfactionDesc": "User satisfaction rating"
+}

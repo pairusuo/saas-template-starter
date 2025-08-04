@@ -1,0 +1,23 @@
+{
+  "title": "简单三步，快速上手",
+  "subtitle": "清晰的流程让您快速从想法到产品发布",
+  "badge": "使用流程",
+  "getStarted": "立即开始",
+  "steps": {
+    "download": {
+      "title": "获取模板",
+      "description": "下载完整的源代码包，包含所有功能和文档",
+      "details": "一次性付费，终身使用，包含所有源代码和未来更新"
+    },
+    "customize": {
+      "title": "定制配置",
+      "description": "根据您的需求修改配置、样式和功能",
+      "details": "模块化设计，支持快速定制品牌、功能和集成"
+    },
+    "deploy": {
+      "title": "部署上线",
+      "description": "一键部署到您选择的云平台",
+      "details": "支持 Vercel、AWS、DigitalOcean 等多种部署方式"
+    }
+  }
+}

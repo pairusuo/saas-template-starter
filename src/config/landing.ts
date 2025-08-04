@@ -7,6 +7,10 @@ export interface LandingConfig {
   features: FeaturesConfig & { enabled: boolean };
   techStack: TechStackConfig & { enabled: boolean };
   socialProof: SocialProofConfig & { enabled: boolean };
+  stats: StatsConfig & { enabled: boolean };
+  howItWorks: HowItWorksConfig & { enabled: boolean };
+  whyChooseUs: WhyChooseUsConfig & { enabled: boolean };
+  integrations: IntegrationsConfig & { enabled: boolean };
   pricing: PricingConfig & { enabled: boolean };
   testimonials: TestimonialsConfig & { enabled: boolean };
   faq: FAQConfig & { enabled: boolean };
@@ -92,6 +96,31 @@ export interface FAQConfig {
   layout: 'single-column' | 'two-column';
 }
 
+// Stats Config
+export interface StatsConfig {
+  variant: 'default' | 'compact' | 'detailed';
+  showBadge: boolean;
+}
+
+// How It Works Config
+export interface HowItWorksConfig {
+  variant: 'steps' | 'timeline' | 'cards';
+  showCTA: boolean;
+}
+
+// Why Choose Us Config
+export interface WhyChooseUsConfig {
+  variant: 'grid' | 'list' | 'featured';
+  columns: 2 | 3 | 4;
+  showIcons: boolean;
+}
+
+// Integrations Config
+export interface IntegrationsConfig {
+  variant: 'logos' | 'grid' | 'carousel';
+  showDescriptions: boolean;
+}
+
 // CTA Config
 export interface CTAConfig {
   variant: 'simple' | 'split' | 'banner' | 'modal';
@@ -158,6 +187,27 @@ export const defaultLandingConfig: LandingConfig = {
     showTestimonials: true,
     showAvatars: true,
     avatarCount: 8,
+  },
+  stats: {
+    enabled: true,
+    variant: 'default',
+    showBadge: true,
+  },
+  howItWorks: {
+    enabled: true,
+    variant: 'steps',
+    showCTA: true,
+  },
+  whyChooseUs: {
+    enabled: true,
+    variant: 'grid',
+    columns: 4,
+    showIcons: true,
+  },
+  integrations: {
+    enabled: true,
+    variant: 'logos',
+    showDescriptions: false,
   },
   pricing: {
     enabled: true,

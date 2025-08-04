@@ -1,0 +1,15 @@
+{
+  "title": "Built with Modern Technologies",
+  "subtitle": "Our template leverages the best tools and frameworks to ensure performance, scalability, and developer experience",
+  "badge": "Tech Stack",
+  "items": {
+    "nextjs": "React framework for production",
+    "typescript": "Type-safe JavaScript",
+    "tailwind": "Utility-first CSS framework",
+    "drizzle": "Type-safe SQL ORM",
+    "nextauth": "Authentication for Next.js",
+    "stripe": "Payment processing",
+    "resend": "Email delivery platform",
+    "vercel": "Deployment and hosting"
+  }
+}

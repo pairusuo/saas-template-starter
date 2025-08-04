@@ -1,0 +1,27 @@
+{
+  "title": "What Our Users Say",
+  "subtitle": "Users can sell your product better than you. Real feedback from developers who built amazing products with our template",
+  "badge": "Testimonials",
+  "items": [
+    {
+      "name": "Sarah Chen",
+      "role": "Full-stack Developer",
+      "content": "This template saved me weeks of development time. The code quality is exceptional and the documentation is crystal clear."
+    },
+    {
+      "name": "Mike Johnson",
+      "role": "Startup Founder",
+      "content": "We launched our SaaS product in just 2 weeks using this template. The built-in payment and auth systems work flawlessly."
+    },
+    {
+      "name": "Emily Rodriguez",
+      "role": "Tech Lead",
+      "content": "The component architecture is brilliant. Our team was able to customize everything without breaking the existing functionality."
+    },
+    {
+      "name": "David Kim",
+      "role": "Product Manager",
+      "content": "Best investment we made for our startup. The template includes everything we needed and more. Highly recommended!"
+    }
+  ]
+}

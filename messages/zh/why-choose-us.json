@@ -1,0 +1,27 @@
+{
+  "title": "为什么选择我们",
+  "subtitle": "让您的优势显而易见，专注于最重要的价值主张",
+  "badge": "核心优势",
+  "items": {
+    "security": {
+      "title": "企业级安全",
+      "description": "内置多层安全防护，包括防伪系统、安全头配置和API速率限制",
+      "highlight": "通过安全审计认证"
+    },
+    "performance": {
+      "title": "极致性能",
+      "description": "基于 Next.js 14 和现代化架构，提供毫秒级响应速度",
+      "highlight": "Core Web Vitals 满分"
+    },
+    "codeQuality": {
+      "title": "代码质量",
+      "description": "遵循行业最佳实践，代码简洁、文档完善、易于维护",
+      "highlight": "TypeScript 严格模式"
+    },
+    "support": {
+      "title": "专业支持",
+      "description": "提供全面的技术支持和详细的文档指导",
+      "highlight": "24/7 技术支持"
+    }
+  }
+}

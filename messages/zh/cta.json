@@ -1,0 +1,22 @@
+{
+  "title": "准备构建您的SaaS了吗？",
+  "subtitle": "加入数千名选择我们模板来更快推出产品的开发者",
+  "badge": "立即开始",
+  "getStarted": "立即开始",
+  "viewPricing": "查看定价",
+  "contactUs": "联系我们",
+  "noCommitment": "无需承诺",
+  "features": "✓ 30天退款保证\n✓ 无设置费用\n✓ 随时取消",
+  "newsletter": {
+    "title": "保持更新",
+    "subtitle": "获取关于我们模板的最新更新和新闻"
+  },
+  "banner": {
+    "title": "准备开始了吗？",
+    "subtitle": "加入数千名构建出色SaaS产品的开发者"
+  },
+  "contact": {
+    "phone": "致电我们",
+    "email": "邮件联系"
+  }
+}

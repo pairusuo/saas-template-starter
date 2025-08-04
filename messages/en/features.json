@@ -1,0 +1,39 @@
+{
+  "title": "Everything You Need to Ship Fast",
+  "subtitle": "Comprehensive toolkit with enterprise-grade features, modern architecture, and developer-first experience",
+  "badge": "Features",
+  "items": {
+    "security": {
+      "title": "Enterprise Security",
+      "description": "Built-in multi-layer security protection, including anti-fraud systems, security headers, and API rate limiting."
+    },
+    "performance": {
+      "title": "Lightning Fast",
+      "description": "Based on Next.js 14 and modern architecture, providing millisecond response speeds."
+    },
+    "database": {
+      "title": "Type-Safe Database",
+      "description": "Drizzle ORM with TypeScript for reliable, scalable data management."
+    },
+    "payments": {
+      "title": "Payment Ready",
+      "description": "Stripe integration with subscription management, invoicing, and webhooks."
+    },
+    "auth": {
+      "title": "Authentication",
+      "description": "NextAuth.js with social logins, magic links, and enterprise SSO."
+    },
+    "analytics": {
+      "title": "Built-in Analytics",
+      "description": "User tracking, conversion funnels, and business intelligence dashboards."
+    },
+    "mobile": {
+      "title": "Mobile First",
+      "description": "Responsive design with PWA support and native-like experience."
+    },
+    "deployment": {
+      "title": "Deploy Anywhere",
+      "description": "Support for Vercel, AWS, and traditional hosting platforms."
+    }
+  }
+}

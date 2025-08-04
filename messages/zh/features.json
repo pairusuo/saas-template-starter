@@ -1,0 +1,39 @@
+{
+  "title": "快速发布所需的一切",
+  "subtitle": "全面的工具包，具备企业级功能、现代架构和开发者优先的体验",
+  "badge": "功能特性",
+  "items": {
+    "security": {
+      "title": "企业级安全",
+      "description": "内置多重安全保护，包括防伪系统、安全头配置和API速率限制。"
+    },
+    "performance": {
+      "title": "极速性能",
+      "description": "基于 Next.js 14 和现代化架构，提供毫秒级响应速度。"
+    },
+    "database": {
+      "title": "类型安全数据库",
+      "description": "使用 TypeScript 的 Drizzle ORM，实现可靠、可扩展的数据管理。"
+    },
+    "payments": {
+      "title": "支付就绪",
+      "description": "Stripe 集成，支持订阅管理、发票和 webhooks。"
+    },
+    "auth": {
+      "title": "身份认证",
+      "description": "NextAuth.js 支持社交登录、魔法链接和企业 SSO。"
+    },
+    "analytics": {
+      "title": "内置分析",
+      "description": "用户跟踪、转化漏斗和商业智能仪表板。"
+    },
+    "mobile": {
+      "title": "移动优先",
+      "description": "响应式设计，支持 PWA 和原生应用体验。"
+    },
+    "deployment": {
+      "title": "随处部署",
+      "description": "支持 Vercel、AWS 和传统托管平台。"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "How It Works - Simple 3 Steps",
+  "subtitle": "Clear process to get you from idea to product launch quickly",
+  "badge": "Process",
+  "getStarted": "Get Started Now",
+  "steps": {
+    "download": {
+      "title": "Get Template",
+      "description": "Download the complete source code package with all features and documentation",
+      "details": "One-time payment, lifetime access, includes all source code and future updates"
+    },
+    "customize": {
+      "title": "Customize",
+      "description": "Modify configuration, styling, and features according to your needs",
+      "details": "Modular design supports rapid customization of branding, features, and integrations"
+    },
+    "deploy": {
+      "title": "Deploy",
+      "description": "One-click deployment to your chosen cloud platform",
+      "details": "Support for Vercel, AWS, DigitalOcean and multiple deployment options"
+    }
+  }
+}

@@ -15,7 +15,7 @@ export default function SocialProofSectionClient({
   config,
   userImages,
 }: SocialProofSectionClientProps) {
-  const t = useTranslations('landing.socialProof');
+  const t = useTranslations('social-proof');
 
   // Prepare data
   const stats = [

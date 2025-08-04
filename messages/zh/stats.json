@@ -1,0 +1,13 @@
+{
+  "title": "数据胜过营销",
+  "subtitle": "真实数据展示我们模板的可靠性和性能表现",
+  "badge": "数据统计",
+  "uptime": "正常运行时间",
+  "uptimeDesc": "99.9% 服务可用性保证",
+  "activeUsers": "活跃用户",
+  "activeUsersDesc": "每月活跃开发者数量",
+  "responseTime": "响应时间",
+  "responseTimeDesc": "平均API响应速度",
+  "satisfaction": "满意度",
+  "satisfactionDesc": "用户满意度评分"
+}
