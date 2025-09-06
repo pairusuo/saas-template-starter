@@ -24,8 +24,12 @@ if [[ "$MODE" != "production" && "$MODE" != "preview" && "$MODE" != "all" ]]; th
   exit 1
 fi
 
-echo "Building Next.js (next-on-pages)..." >&2
-pnpm -s cf:build
+if [[ "${SKIP_CF_BUILD:-0}" == "1" ]]; then
+  echo "Skipping build (SKIP_CF_BUILD=1). Using existing .vercel/output" >&2
+else
+  echo "Building Next.js (next-on-pages)..." >&2
+  pnpm -s cf:build
+fi
 
 OUT_DIR=".vercel/output"
 if [[ ! -d "$OUT_DIR" ]]; then

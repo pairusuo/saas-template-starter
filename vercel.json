@@ -1,0 +1,7 @@
+{
+  "framework": "nextjs",
+  "installCommand": "echo Skipping install step (using local node_modules)",
+  "buildCommand": "next build",
+  "outputDirectory": ".vercel/output"
+}
+
