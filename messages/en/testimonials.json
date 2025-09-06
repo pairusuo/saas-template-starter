@@ -2,6 +2,18 @@
   "title": "What Our Users Say",
   "subtitle": "Users can sell your product better than you. Real feedback from developers who built amazing products with our template",
   "badge": "Testimonials",
+  "sarah": {
+    "text": "This template saved me weeks of development time. The code quality is exceptional and the documentation is crystal clear.",
+    "author": "Sarah Chen, TechStart"
+  },
+  "david": {
+    "text": "We launched our SaaS product in just 2 weeks using this template. The built-in payment and auth systems work flawlessly.",
+    "author": "David Rodriguez, InnovateAI"
+  },
+  "emily": {
+    "text": "The component architecture is brilliant. Our team was able to customize everything without breaking the existing functionality.",
+    "author": "Emily Johnson, Solo Dev"
+  },
   "items": [
     {
       "name": "Sarah Chen",

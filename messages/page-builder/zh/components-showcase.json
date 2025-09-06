@@ -1,0 +1,72 @@
+{
+  "title": "Landing Page 模板中心",
+  "subtitle": "探索我们精心设计的三种 Landing Page 模板，每种都针对不同的使用场景和开发需求进行了优化",
+  "badges": {
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "responsive": "响应式设计"
+  },
+  "componentTypes": {
+    "basic": {
+      "title": "基础组件",
+      "description": "开箱即用的简洁组件，最少配置，适合快速搭建",
+      "badge": "推荐新手",
+      "features": {
+        "zeroConfig": "零配置启动",
+        "simpleDesign": "简洁设计风格",
+        "quickDeploy": "快速部署",
+        "easyMaintain": "易于维护"
+      }
+    },
+    "advanced": {
+      "title": "高级组件",
+      "description": "功能丰富的组件，提供更多配置选项和视觉效果",
+      "badge": "功能丰富",
+      "features": {
+        "richConfig": "丰富的配置选项",
+        "animations": "动画和视觉效果",
+        "multiLayout": "多种布局模式",
+        "fullInteraction": "交互功能完善"
+      }
+    },
+    "custom": {
+      "title": "自定义组件",
+      "description": "完全可定制的组件，支持深度自定义配置",
+      "badge": "开发者专用",
+      "features": {
+        "fullCustom": "完全自定义配置",
+        "rawExport": "原始组件导出",
+        "flexibleUse": "灵活组合使用",
+        "complexNeeds": "适合复杂需求"
+      }
+    }
+  },
+  "buttons": {
+    "viewComponents": "查看组件"
+  },
+  "guide": {
+    "title": "如何选择合适的组件？",
+    "subtitle": "根据您的项目需求和开发经验，选择最适合的组件类型",
+    "steps": {
+      "step1": {
+        "title": "新手或快速原型",
+        "description": "选择基础组件，零配置即可使用，快速搭建产品原型"
+      },
+      "step2": {
+        "title": "商业项目",
+        "description": "选择高级组件，丰富的功能和视觉效果提升用户体验"
+      },
+      "step3": {
+        "title": "定制需求",
+        "description": "选择自定义组件，完全控制每个细节，满足特殊需求"
+      }
+    }
+  },
+  "cta": {
+    "title": "开始探索组件",
+    "subtitle": "每个组件都经过精心设计和测试，确保在各种场景下都能完美运行",
+    "startBasic": "从基础组件开始",
+    "viewAdvanced": "查看高级组件"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "基础 Landing Page 模板",
+  "description": "这是一个完整的基础 Landing Page 模板，使用简洁的基础组件构建，开箱即用，配置最少，适合快速搭建产品落地页。",
+  "features": {
+    "simpleDesign": {
+      "title": "简洁设计",
+      "description": "所有组件都采用简洁的设计风格，专注于核心功能"
+    },
+    "minimalConfig": {
+      "title": "最少配置",
+      "description": "只需要最基本的配置就能使用，降低学习成本"
+    },
+    "quickDeploy": {
+      "title": "快速部署",
+      "description": "适合需要快速上线的项目，节省开发时间"
+    }
+  }
+}

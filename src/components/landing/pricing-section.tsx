@@ -38,33 +38,33 @@ export function PricingSection({
     {
       id: 'starter',
       name: t('plans.starter.name'),
-      price: t('plans.starter.price'),
-      period: t('plans.starter.period'),
+      price: isAnnual ? t('plans.starter.priceAnnual') : t('plans.starter.priceMonthly'),
+      period: isAnnual ? t('plans.starter.periodAnnual') : t('plans.starter.periodMonthly'),
       description: t('plans.starter.description'),
       features: t.raw('plans.starter.features') as string[],
-      cta: t('getStarted'),
+      cta: t('plans.starter.cta'),
       href: '/contact',
       popular: false,
     },
     {
       id: 'pro',
       name: t('plans.pro.name'),
-      price: isAnnual ? '¥1,039' : t('plans.pro.price'),
-      period: isAnnual ? '/年' : t('plans.pro.period'),
+      price: isAnnual ? t('plans.pro.priceAnnual') : t('plans.pro.priceMonthly'),
+      period: isAnnual ? t('plans.pro.periodAnnual') : t('plans.pro.periodMonthly'),
       description: t('plans.pro.description'),
       features: t.raw('plans.pro.features') as string[],
-      cta: t('getStarted'),
+      cta: t('plans.pro.cta'),
       href: '/contact',
       popular: true,
     },
     {
       id: 'enterprise',
       name: t('plans.enterprise.name'),
-      price: isAnnual ? '¥2,639' : t('plans.enterprise.price'),
-      period: isAnnual ? '/年' : t('plans.enterprise.period'),
+      price: t('plans.enterprise.price'),
+      period: t('plans.enterprise.period'),
       description: t('plans.enterprise.description'),
       features: t.raw('plans.enterprise.features') as string[],
-      cta: t('contactSales'),
+      cta: t('plans.enterprise.cta'),
       href: '/contact',
       popular: false,
     },
@@ -175,7 +175,7 @@ export function PricingSection({
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="border-b">
-                    <th className="text-left p-4">功能</th>
+                    <th className="text-left p-4">{t('table.features')}</th>
                     {plans.map((plan) => (
                       <th key={plan.id} className="text-center p-4">
                         <div className="font-bold">{plan.name}</div>

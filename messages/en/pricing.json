@@ -4,59 +4,74 @@
   "badge": "Pricing",
   "monthly": "Monthly",
   "yearly": "Yearly",
-  "save": "Save 20%",
+  "year": "/year",
+  "month": "/month",
+  "annual": "Annual",
+  "save": "Save",
   "getStarted": "Get Started",
   "contactSales": "Contact Sales",
   "mostPopular": "Most Popular",
   "popular": "Most Popular",
+  "needMore": "Need more features or have special requirements?",
+  "contactCustom": "Contact us for custom solutions",
   "billing": {
-    "monthly": "Monthly",
-    "annual": "Annual",
+    "monthly": "Monthly billing",
+    "annual": "Annual billing",
+    "annually": "/year",
     "save20": "Save 20%"
+  },
+  "table": {
+    "features": "Features"
   },
   "plans": {
     "starter": {
       "name": "Starter",
-      "description": "Perfect for individuals and small projects",
-      "price": "$49",
-      "period": "one-time",
+      "description": "Perfect for individual developers and small projects",
+      "priceMonthly": "$39",
+      "priceAnnual": "$299",
+      "periodMonthly": "/month",
+      "periodAnnual": "/year",
+      "cta": "Get Started",
       "features": [
-        "Complete source code",
-        "Basic components library",
-        "Authentication system",
-        "Database integration",
-        "Email support",
-        "6 months updates"
+        "5 projects",
+        "10GB storage",
+        "Basic support",
+        "Community access",
+        "Basic analytics"
       ]
     },
     "pro": {
       "name": "Professional",
-      "description": "Best for growing businesses and teams",
-      "price": "$99",
-      "period": "one-time",
+      "description": "Perfect for growing teams and businesses",
+      "priceMonthly": "$99",
+      "priceAnnual": "$999",
+      "periodMonthly": "/month",
+      "periodAnnual": "/year",
+      "cta": "Upgrade Now",
       "features": [
-        "Everything in Starter",
-        "Advanced components",
-        "Payment integration",
-        "Analytics dashboard",
+        "Unlimited projects",
+        "100GB storage",
         "Priority support",
-        "12 months updates",
-        "Custom branding"
+        "Advanced analytics",
+        "Team collaboration",
+        "API access",
+        "Custom integrations"
       ]
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "For large organizations with custom needs",
-      "price": "Custom",
-      "period": "contact us",
+      "description": "Perfect for large enterprises and custom needs",
+      "price": "Contact us",
+      "period": "",
+      "cta": "Contact Sales",
       "features": [
-        "Everything in Professional",
+        "Unlimited projects and storage",
+        "24/7 dedicated support",
+        "Advanced security features",
         "Custom development",
-        "Dedicated support",
+        "Dedicated account manager",
         "SLA guarantee",
-        "On-premise deployment",
-        "Training & consulting",
-        "Unlimited updates"
+        "Private deployment options"
       ]
     }
   }

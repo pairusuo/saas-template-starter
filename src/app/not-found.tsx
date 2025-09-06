@@ -1,55 +1,31 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useCallback } from 'react';
+import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { locales } from '@/lib/i18n-config';
 import { Home, ArrowRight } from 'lucide-react';
 
 export default function NotFound() {
-  const [countdown, setCountdown] = useState(5);
-  const [mounted, setMounted] = useState(false);
-  const router = useRouter();
   const pathname = usePathname();
 
   // 检测URL中的语言信息
-  const detectLocaleFromPath = () => {
+  const detectLocaleFromPath = useCallback(() => {
     for (const locale of locales) {
       if (pathname.startsWith(`/${locale}`)) {
         return locale;
       }
     }
     return 'en'; // 默认返回英文
-  };
+  }, [pathname]);
 
-  const getHomePath = () => {
+  const getHomePath = useCallback(() => {
     const detectedLocale = detectLocaleFromPath();
-    return detectedLocale === 'en' ? '/' : `/${detectedLocale}`;
-  };
+    // We always use explicit locale prefix to match the [locale] routes
+    return `/${detectedLocale}`;
+  }, [detectLocaleFromPath]);
 
-  useEffect(() => {
-    setMounted(true);
-    const timer = setInterval(() => {
-      setCountdown((prev) => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          router.push(getHomePath());
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [router, pathname]);
-
-  const handleRedirectNow = () => {
-    router.push(getHomePath());
-  };
-
-  if (!mounted) {
-    return null;
-  }
+  // Remove auto-redirect to avoid router updates during render/effects
 
   const detectedLocale = detectLocaleFromPath();
   const isZh = detectedLocale === 'zh';
@@ -60,9 +36,7 @@ export default function NotFound() {
     pageNotFoundDescription: isZh
       ? '抱歉，您访问的页面不存在或已被移动。'
       : 'Sorry, the page you are looking for does not exist or has been moved.',
-    autoRedirectCountdown: isZh ? '自动跳转倒计时' : 'Auto redirect countdown',
-    secondsUntilRedirect: isZh ? '秒后自动跳转到首页' : 'seconds until redirect to homepage',
-    redirectNow: isZh ? '立即跳转' : 'Go to Homepage',
+    redirectNow: isZh ? '返回首页' : 'Go to Homepage',
     goHome: isZh ? '返回首页' : 'Back to Home',
     errorContactSupport: isZh
       ? '如果您认为这是一个错误，请联系我们的技术支持。'
@@ -121,93 +95,17 @@ export default function NotFound() {
           </p>
         </div>
 
-        {/* 倒计时卡片 */}
+        {/* 简要提示 */}
         <div style={{ marginBottom: '2rem' }}>
-          <div
-            style={{
-              backgroundColor: 'white',
-              borderRadius: '0.5rem',
-              padding: '1.5rem',
-              boxShadow: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
-              border: '1px solid #e5e7eb',
-            }}
-          >
-            <p
-              style={{
-                fontSize: '0.875rem',
-                color: '#6b7280',
-                marginBottom: '0.75rem',
-              }}
-            >
-              {texts.autoRedirectCountdown}
-            </p>
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                gap: '0.75rem',
-                marginBottom: '1rem',
-              }}
-            >
-              <div
-                style={{
-                  width: '3rem',
-                  height: '3rem',
-                  backgroundColor: '#dbeafe',
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <span
-                  style={{
-                    fontSize: '1.25rem',
-                    fontWeight: 'bold',
-                    color: '#2563eb',
-                  }}
-                >
-                  {countdown}
-                </span>
-              </div>
-              <span
-                style={{
-                  color: '#6b7280',
-                  fontSize: '0.875rem',
-                }}
-              >
-                {texts.secondsUntilRedirect}
-              </span>
-            </div>
-
-            {/* 进度条 */}
-            <div
-              style={{
-                width: '100%',
-                backgroundColor: '#e5e7eb',
-                borderRadius: '9999px',
-                height: '0.5rem',
-                overflow: 'hidden',
-              }}
-            >
-              <div
-                style={{
-                  backgroundColor: '#2563eb',
-                  height: '100%',
-                  borderRadius: '9999px',
-                  width: `${((5 - countdown) / 5) * 100}%`,
-                  transition: 'width 1s ease-out',
-                }}
-              />
-            </div>
+          <div style={{ backgroundColor: 'white', borderRadius: '0.5rem', padding: '1.5rem', border: '1px solid #e5e7eb' }}>
+            <p style={{ color: '#6b7280' }}>{texts.pageNotFoundDescription}</p>
           </div>
         </div>
 
         {/* 按钮区域 */}
         <div style={{ marginBottom: '2rem' }}>
-          <button
-            onClick={handleRedirectNow}
+          <a
+            href={getHomePath()}
             style={{
               width: '100%',
               height: '3rem',
@@ -230,7 +128,7 @@ export default function NotFound() {
           >
             <ArrowRight style={{ width: '1rem', height: '1rem' }} />
             {texts.redirectNow}
-          </button>
+          </a>
 
           <a
             href={getHomePath()}

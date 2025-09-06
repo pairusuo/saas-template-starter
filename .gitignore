@@ -28,6 +28,8 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production
+.env.preview
+.env
 
 # Vercel
 .vercel
@@ -189,3 +191,5 @@ yarn.lock
 
 # self-define
 .swc/
+saas-template-starter.txt
+notes.txt

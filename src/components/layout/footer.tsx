@@ -90,7 +90,7 @@ export function Footer() {
               </div>
               {/* Legal Links */}
               <div className="space-y-4">
-                <h4 className="text-sm font-semibold text-foreground">{tFooter('legal')}</h4>
+                <h4 className="text-sm font-semibold text-foreground">{tFooter('legalTitle')}</h4>
                 <ul className="space-y-2 text-sm">
                   <li>
                     <Link

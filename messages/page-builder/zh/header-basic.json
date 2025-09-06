@@ -1,0 +1,25 @@
+{
+  "header-basic": {
+    "showCTA": true,
+    "ctaText": "立即开始",
+    "logo": "SaaS Template",
+    "navigation": [
+      {
+        "href": "#features",
+        "label": "header-basic-功能"
+      },
+      {
+        "href": "#pricing",
+        "label": "定价"
+      },
+      {
+        "href": "#about",
+        "label": "关于"
+      },
+      {
+        "href": "#contact",
+        "label": "联系"
+      }
+    ]
+  }
+}

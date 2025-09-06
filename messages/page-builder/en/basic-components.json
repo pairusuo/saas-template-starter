@@ -1,0 +1,18 @@
+{
+  "title": "Basic Landing Page Template",
+  "description": "This is a complete basic Landing Page template built with simple basic components, ready to use out of the box with minimal configuration, perfect for quickly building product landing pages.",
+  "features": {
+    "simpleDesign": {
+      "title": "Simple Design",
+      "description": "All components adopt a clean design style, focusing on core functionality"
+    },
+    "minimalConfig": {
+      "title": "Minimal Configuration",
+      "description": "Only requires basic configuration to use, reducing learning costs"
+    },
+    "quickDeploy": {
+      "title": "Quick Deployment",
+      "description": "Perfect for projects that need to go live quickly, saving development time"
+    }
+  }
+}

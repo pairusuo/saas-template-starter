@@ -9,5 +9,8 @@
   "responseTime": "响应时间",
   "responseTimeDesc": "平均API响应速度",
   "satisfaction": "满意度",
-  "satisfactionDesc": "用户满意度评分"
+  "satisfactionDesc": "用户满意度评分",
+  "developers": "开发者",
+  "requests": "请求数",
+  "rating": "评分"
 }

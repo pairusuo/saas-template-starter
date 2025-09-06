@@ -1,0 +1,53 @@
+{
+  "title": "自定义 Landing Page 模板",
+  "description": "这是一个完全可定制的 Landing Page 模板，展示了所有组件的原始导出，支持完全自定义配置，适合有特殊需求的开发者进行深度定制。",
+  "sections": {
+    "hero": {
+      "title": "英雄区域组件",
+      "simple": "HeroSimple - 简洁英雄区域",
+      "centered": "HeroCentered - 居中英雄区域"
+    },
+    "features": {
+      "title": "功能特性组件",
+      "grid": "FeaturesGrid - 网格布局特性",
+      "list": "FeaturesList - 列表布局特性"
+    },
+    "stats": {
+      "title": "数据统计组件",
+      "minimal": "StatsMinimal - 极简统计",
+      "basic": "StatsBasic - 基础统计"
+    },
+    "testimonials": {
+      "title": "用户评价组件",
+      "simple": "TestimonialsSimple - 简洁评价",
+      "grid": "TestimonialsGrid - 网格评价"
+    },
+    "socialProof": {
+      "title": "社会证明组件",
+      "avatars": "SocialProofAvatars - 用户头像证明",
+      "logos": "SocialProofLogos - 品牌标志证明"
+    }
+  },
+  "customization": {
+    "title": "完全自定义",
+    "description": "所有组件都支持完全自定义配置，您可以根据项目需求调整任何参数。",
+    "features": {
+      "rawExport": {
+        "title": "原始导出",
+        "description": "直接使用组件的原始导出，无任何预设配置"
+      },
+      "fullControl": {
+        "title": "完全控制",
+        "description": "对组件的每个属性都有完全的控制权"
+      },
+      "flexibleCombination": {
+        "title": "灵活组合",
+        "description": "可以自由组合不同的组件创建独特的页面"
+      },
+      "developerFriendly": {
+        "title": "开发友好",
+        "description": "适合有经验的开发者进行深度定制"
+      }
+    }
+  }
+}

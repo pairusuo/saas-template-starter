@@ -1,0 +1,286 @@
+{
+  "title": "页面构建器",
+  "welcome": {
+    "title": "欢迎使用页面构建器",
+    "description": "开始创建您的第一个页面布局",
+    "createNewPage": "创建新页面",
+    "defaultPageName": "新页面",
+    "defaultPageDescription": "使用拖拽构建器创建的页面"
+  },
+  "toolbar": {
+    "preview": "预览",
+    "save": "保存",
+    "saving": "保存中...",
+    "export": "导出代码",
+    "import": "导入",
+    "clear": "清空",
+    "applyToProject": "应用到项目",
+    "settings": "设置",
+    "translatePage": "翻译页面",
+    "translating": "翻译中..."
+  },
+  "componentPanel": {
+    "title": "组件库",
+    "description": "拖拽组件到画布中使用",
+    "search": "搜索组件...",
+    "categories": {
+      "all": "全部",
+      "layout": "布局",
+      "hero": "英雄区域",
+      "features": "功能特性",
+      "testimonials": "用户评价",
+      "stats": "数据统计",
+      "socialProof": "社会证明",
+      "social-proof": "社会证明",
+      "footer": "页脚",
+      "header": "页头",
+      "content": "内容",
+      "form": "表单",
+      "navigation": "导航",
+      "cta": "行动号召",
+      "pricing": "定价",
+      "faq": "常见问题",
+      "site-control": "站点控制"
+    },
+    "components": {
+      "heroSimple": "简洁英雄区域",
+      "heroCentered": "居中英雄区域",
+      "headerBasic": "基础头部",
+      "footerBasic": "基础页脚",
+      "featuresGrid": "功能网格",
+      "featuresList": "功能列表",
+      "testimonialsGrid": "评价网格",
+      "testimonialsSimple": "简洁评价",
+      "statsBasic": "基础统计",
+      "statsMinimal": "简洁统计",
+      "socialProofLogos": "品牌标志",
+      "socialProofAvatars": "用户头像",
+      "ctaSimple": "简洁行动号召",
+      "ctaSplit": "分栏行动号召",
+      "pricingCards": "定价卡片",
+      "faqAccordion": "常见问题手风琴",
+      "siteControlPillDock": "站点控制·胶囊停靠",
+      "siteControlGearPopover": "站点控制·齿轮弹出",
+      "siteControlInlineBar": "站点控制·内联条"
+    },
+    "descriptions": {
+      "heroSimple": "简洁的英雄区域，包含标题、副标题和操作",
+      "heroCentered": "居中对齐的英雄区域，包含徽章、标题和按钮",
+      "headerBasic": "基础的站点页头，包含导航",
+      "footerBasic": "基础的页脚，包含链接和信息",
+      "featuresGrid": "以网格布局展示功能特性",
+      "featuresList": "以列表布局展示功能特性",
+      "testimonialsGrid": "网格形式展示客户评价",
+      "testimonialsSimple": "简洁的客户评价展示",
+      "statsBasic": "基础的数据统计展示",
+      "statsMinimal": "简洁风格的数据统计",
+      "socialProofLogos": "展示合作伙伴或品牌标志",
+      "socialProofAvatars": "展示用户头像作为社会证明",
+      "ctaSimple": "包含标题、描述和按钮的简洁行动号召",
+      "ctaSplit": "两栏布局的行动号召，包含特性与操作",
+      "pricingCards": "带有月付/年付切换和特性对比的定价卡片",
+      "faqAccordion": "支持分类与搜索的手风琴式常见问题",
+      "siteControlPillDock": "右上/右下角悬浮的胶囊控件，集成语言与主题切换",
+      "siteControlGearPopover": "齿轮按钮样式，点击后弹出包含语言与主题的设置卡片",
+      "siteControlInlineBar": "内联条形控件，适合放置在头部或内容区域"
+    },
+    "testComponent": "测试组件",
+    "testComponentDescription": "这是一个用于验证滚动功能的测试组件",
+    "categoryTestDescription": "这是一个属于 {{category}} 分类的测试组件",
+    "totalComponents": "共 {count} 个组件"
+  },
+  "propertyPanel": {
+    "title": "属性面板",
+    "noSelection": "选择组件以编辑属性",
+    "general": "基本信息",
+    "componentId": "组件ID",
+    "componentType": "组件类型",
+    "position": "位置",
+    "positionAdjustment": "位置调整",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "propertyConfig": "属性配置",
+    "realTimeTranslation": "实时翻译",
+    "applyChanges": "应用更改",
+    "resetProperties": "重置属性"
+  },
+  "canvas": {
+    "empty": {
+      "title": "开始构建您的页面",
+      "description": "从左侧面板拖拽组件到这里",
+      "hint": "提示：您可以拖拽组件来重新排序"
+    },
+    "dropHere": "将组件拖放到这里",
+    "dropToAdd": "释放以添加组件",
+    "dropDescription": "将组件放置在这里开始构建页面",
+    "previewIndicator": {
+      "mobile": "📱 手机预览",
+      "tablet": "📲 平板预览",
+      "desktop": "🖥️ 桌面预览"
+    }
+  },
+  "preview": {
+    "title": "页面预览",
+    "mode": "预览模式",
+    "close": "关闭预览",
+    "loading": "加载预览中...",
+    "noData": "无内容可预览",
+    "backToBuilder": "请返回页面构建器并点击预览按钮",
+    "untitledPage": "未命名页面",
+    "generatedBy": "此页面由页面构建器生成",
+    "exitPreview": "退出预览",
+    "backToEditor": "返回编辑",
+    "responsive": {
+      "desktop": "桌面",
+      "tablet": "平板",
+      "mobile": "手机"
+    },
+    "summary": {
+      "components": "共 {count} 个组件",
+      "currentView": "当前视图"
+    }
+  },
+  "siteControls": {
+    "settings": "设置",
+    "language": "语言",
+    "theme": "主题"
+  },
+  "i18n": {
+    "title": "国际化",
+    "generatorTitle": "智能国际化生成器",
+    "generatorSubtitle": "将拖拽构建的页面转换为支持多语言的国际化页面",
+    "statusTitle": "当前状态",
+    "stats": {
+      "componentCount": "组件数量",
+      "componentCountDesc": "页面中的组件总数",
+      "countWithUnit": "{count} 个"
+    },
+    "currentLanguage": "当前语言",
+    "currentLanguageDesc": "当前编辑的语言环境",
+    "languages": {
+      "en": "英语",
+      "zh": "中文"
+    },
+    "generateTitle": "智能国际化生成",
+    "smartUpdateHome": {
+      "title": "智能更新主页",
+      "recommended": "推荐",
+      "description": "自动备份原文件，智能更新翻译内容，保持现有自定义内容不变",
+      "button": "智能更新主页"
+    },
+    "generating": "正在生成...",
+    "generateStandalone": {
+      "title": "生成独立页面",
+      "description": "生成独立的国际化页面文件，不影响现有主页",
+      "button": "生成独立页面"
+    },
+    "features": {
+      "title": "功能特点",
+      "realtime": "实时翻译组件属性",
+      "merge": "智能合并现有翻译",
+      "backup": "自动备份原文件",
+      "bidirectional": "支持中英文双向翻译"
+    },
+    "instructions": {
+      "title": "使用说明",
+      "step1": "在画布中添加和配置组件",
+      "step2": "修改组件属性时会自动更新翻译",
+      "step3": "选择生成方式并点击生成按钮",
+      "step4": "系统自动处理翻译和文件更新"
+    },
+    "notes": {
+      "title": "注意事项",
+      "itemBackup": "智能更新主页会自动备份原文件到 backups/ 目录",
+      "itemSave": "翻译内容会自动保存到 messages/ 目录对应的组件文件中",
+      "itemPreview": "建议先预览翻译效果，确认无误后再更新主页",
+      "itemRestart": "生成后需要重启开发服务器以查看最新效果"
+    },
+    "codePreview": {
+      "title": "生成的代码",
+      "download": "下载代码"
+    },
+    "download": {
+      "success": "代码已下载",
+      "emptyError": "没有可下载的代码"
+    },
+    "addTranslation": "添加翻译",
+    "generateTranslation": "生成翻译",
+    "translationKey": "翻译键",
+    "translationValue": "翻译值",
+    "autoTranslate": "自动翻译"
+  },
+  "messages": {
+    "saved": "页面已保存",
+    "exported": "代码已导出",
+    "imported": "布局已导入",
+    "cleared": "画布已清空",
+    "published": "页面已发布",
+    "duplicated": "页面已复制",
+    "deleted": "页面已删除",
+    "renamed": "页面已重命名",
+    "error": "操作失败，请重试",
+    "unsavedChanges": "您有未保存的更改，确定要离开吗？",
+    "noComponentsPreview": "请先添加一些组件再预览",
+    "noLayoutToSave": "没有页面布局可保存",
+    "noComponentsToSave": "请先添加一些组件再保存",
+    "saveSuccess": "页面保存成功！\n\n文件路径：{{filePath}}\n文件名：{{fileName}}\n\n您可以在 {{filePath}} 找到生成的 TSX 文件。",
+    "saveFailed": "保存失败：{{error}}",
+    "unknownError": "未知错误",
+    "noComponentsToExport": "请先添加一些组件再导出代码",
+    "codeExported": "代码已导出！文件包含与构建器中相同的组件与属性。",
+    "settingsInDevelopment": "设置功能开发中...",
+    "noComponentsToTranslate": "请先添加一些组件再翻译",
+    "confirmTranslate": "确定要将当前页面翻译为 {{targetLang}} 吗？\n\n这将调用翻译服务，请确保已正确配置。",
+    "translateSuccess": "翻译完成！\n\n源语言：{{originalLang}}\n目标语言：{{targetLang}}\n翻译服务：{{provider}}\n\n翻译结果已在新窗口中打开以供预览。",
+    "translateFailed": "翻译失败：{{error}}\n\n详情：{{details}}",
+    "translateRequestFailed": "翻译请求失败：{{error}}",
+    "networkError": "网络错误",
+    "confirmClear": "确定要清空画布吗？此操作无法撤消。",
+    "noComponentsToApply": "请先添加一些组件再应用到项目",
+    "confirmApplyToProject": "确定要将当前构建的页面应用到项目主页吗？\n\n这将替换项目当前的主页布局。",
+    "applyToProjectSuccess": "页面已成功应用到项目主页！\n\n您可以访问项目主页查看效果。",
+    "applyToProjectFailed": "应用到项目主页失败：{{error}}",
+    "openProjectHome": "现在是否打开项目主页查看效果？"
+  },
+  "placeholders": {
+    "pageName": "输入页面名称...",
+    "pageDescription": "输入页面描述...",
+    "searchComponents": "搜索组件...",
+    "componentName": "组件名称",
+    "propertyValue": "属性值"
+  },
+  "fixedPosition": {
+    "header": "Header",
+    "footer": "Footer",
+    "fixed": "固定",
+    "fixedComponent": "固定位置组件",
+    "cannotMove": "此组件位置固定，无法移动",
+    "cannotDrag": "此组件位置固定，添加后无法拖拽移动",
+    "currentPosition": "当前位置",
+    "componentSuffix": "组件"
+  },
+  "actions": {
+    "dragMove": "拖拽移动",
+    "editProperties": "编辑属性",
+    "duplicateComponent": "复制组件",
+    "deleteComponent": "删除组件",
+    "toggleComponentPanel": "切换组件面板",
+    "togglePropertiesPanel": "切换属性面板"
+  },
+  "translation": {
+    "updated": "翻译已更新",
+    "updateSuccess": "已同步更新 {count} 个翻译文件",
+    "updateFailed": "翻译更新失败",
+    "unknownError": "未知错误",
+    "networkError": "网络错误或服务器异常"
+  },
+  "common": {
+    "yes": "是",
+    "no": "否",
+    "save": "保存",
+    "cancel": "取消",
+    "updating": "更新中...",
+    "path": "路径",
+    "file": "文件"
+  }
+}

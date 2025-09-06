@@ -1,0 +1,153 @@
+{
+  "hero": {
+    "title": "Visual Landing Page Builder",
+    "subtitle": "Build stunning SaaS landing pages with our drag-and-drop visual builder. No coding required - just drag, drop, and customize. Powered by Next.js 14, React 18, and TypeScript.",
+    "viewDemo": "View Demo",
+    "compareTemplates": "Compare Templates",
+    "pageBuilder": "Visual Builder",
+    "github": "GitHub",
+    "badge": "Visual Builder"
+  },
+  "features": {
+    "title": "Why Choose Our Visual Builder?",
+    "subtitle": "The most powerful and intuitive visual landing page builder for modern SaaS applications",
+    "pageBuilder": {
+      "title": "Drag & Drop Builder",
+      "description": "Visual page builder with real-time preview and instant customization",
+      "dragDrop": "Intuitive drag and drop interface",
+      "realTime": "Real-time preview and editing",
+      "export": "Export clean, production-ready code"
+    },
+    "componentLibrary": {
+      "title": "Rich Component Library",
+      "description": "Extensive collection of pre-built, customizable components",
+      "rich": "100+ pre-built components",
+      "customizable": "Fully customizable props and styles",
+      "typeSafe": "TypeScript support for all components"
+    },
+    "responsive": {
+      "title": "Responsive Design",
+      "description": "Perfect display across all devices and screen sizes",
+      "mobile": "Mobile-first design approach",
+      "tablet": "Tablet-optimized layouts",
+      "desktop": "Desktop-enhanced experiences"
+    },
+    "i18n": {
+      "title": "Internationalization",
+      "description": "Built-in multi-language support with automatic translation",
+      "multiLanguage": "Multi-language support",
+      "autoTranslation": "Automatic translation generation",
+      "seoOptimized": "SEO-optimized for each language"
+    },
+    "performance": {
+      "title": "Performance Optimized",
+      "description": "Lightning-fast performance with modern optimization techniques",
+      "fast": "Lightning-fast loading times",
+      "optimized": "Optimized for Core Web Vitals",
+      "seo": "SEO-optimized structure"
+    },
+    "community": {
+      "title": "Active Community",
+      "description": "Join our growing community of developers and designers",
+      "active": "Active community support",
+      "documentation": "Comprehensive documentation",
+      "support": "24/7 community support"
+    },
+    "readyToUse": {
+      "title": "Ready to Use",
+      "description": "No complex configuration needed, clone the project and start using immediately, quickly launch your product page"
+    },
+    "modernDesign": {
+      "title": "Modern Design",
+      "description": "Adopts the latest design trends and best practices, ensuring your page looks professional and modern"
+    },
+    "fullyCustomizable": {
+      "title": "Fully Customizable",
+      "description": "All components support custom configuration, easily adapt to your brand and product needs"
+    },
+    "typeSafe": {
+      "title": "Type Safe",
+      "description": "Built with TypeScript, providing complete type support and better development experience"
+    },
+    "performanceOptimized": {
+      "title": "Performance Optimized",
+      "description": "Built on Next.js 14, enjoy the latest performance optimizations and development experience"
+    }
+  },
+  "quickStart": {
+    "title": "Quick Start",
+    "subtitle": "Just a few simple steps to start using our visual builder",
+    "step1": {
+      "title": "Choose Template",
+      "description": "Browse our three templates and choose the one that best fits your project needs"
+    },
+    "step2": {
+      "title": "Clone Project",
+      "description": "Clone the project locally, install dependencies, and start developing"
+    },
+    "step3": {
+      "title": "Start Building",
+      "description": "Use our visual builder to create your landing page with drag and drop"
+    },
+    "installTitle": "Installation and Running",
+    "cloneComment": "# Clone project",
+    "installComment": "# Install dependencies",
+    "runComment": "# Start development server"
+  },
+  "templates": {
+    "title": "Three Landing Page Templates",
+    "subtitle": "We have carefully prepared three different styles of Landing Page templates, each optimized for different use cases and development needs. Choose the template that best fits your project to quickly launch your product page.",
+    "basic": {
+      "title": "Basic Template",
+      "description": "Clean and elegant design, ready to use. Perfect for beginners and projects that need to go live quickly, includes all necessary basic components.",
+      "features": {
+        "zeroConfig": "Zero configuration startup",
+        "responsive": "Responsive design",
+        "quickDeploy": "Quick deployment"
+      },
+      "button": "View Basic Template"
+    },
+    "advanced": {
+      "title": "Advanced Template",
+      "description": "Feature-rich professional template with animations and advanced interactions. Perfect for commercial projects and products that need professional appearance.",
+      "features": {
+        "richAnimations": "Rich animation effects",
+        "advancedComponents": "Advanced interactive components",
+        "professionalDesign": "Professional visual design"
+      },
+      "button": "View Advanced Template"
+    },
+    "custom": {
+      "title": "Custom Template",
+      "description": "Fully customizable flexible template with raw access to all components. Perfect for developers with special needs and complex customization projects.",
+      "features": {
+        "fullyCustomizable": "Fully customizable configuration",
+        "rawAccess": "Raw component access",
+        "flexibleCombination": "Flexible combination usage"
+      },
+      "button": "View Custom Template"
+    },
+    "howToChoose": {
+      "title": "How to choose the right template?",
+      "basic": {
+        "title": "Choose Basic Template",
+        "description": "If you are a beginner or need to start a project quickly"
+      },
+      "advanced": {
+        "title": "Choose Advanced Template",
+        "description": "If you need professional appearance and rich features"
+      },
+      "custom": {
+        "title": "Choose Custom Template",
+        "description": "If you need full control and custom development"
+      }
+    }
+  },
+  "techStack": {
+    "nextjs": "Next.js 14",
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "shadcn": "Shadcn/ui"
+  }
+}

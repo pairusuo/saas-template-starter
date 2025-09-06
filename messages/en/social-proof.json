@@ -1,15 +1,18 @@
 {
   "title": "Trusted by developers worldwide",
-  "subtitle": "Join thousands of developers who have built successful products with our template",
+  "subtitle": "Join thousands of developers who have built successful products using our template",
+  "joinedDevelopers": "10,000+ developers joined",
+  "reviewCount": "from 500+ reviews",
+  "trustedByCompanies": "Used by teams at",
   "stats": {
     "developers": "10,000+",
-    "developersLabel": "Developers",
+    "developersLabel": "developers",
     "projects": "5,000+",
-    "projectsLabel": "Projects Built",
+    "projectsLabel": "projects built",
     "countries": "50+",
-    "countriesLabel": "Countries",
+    "countriesLabel": "countries",
     "satisfaction": "99%",
-    "satisfactionLabel": "Satisfaction"
+    "satisfactionLabel": "satisfaction"
   },
   "companies": {
     "title": "Used by teams at"

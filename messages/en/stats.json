@@ -9,5 +9,8 @@
   "responseTime": "Response Time",
   "responseTimeDesc": "Average API response speed",
   "satisfaction": "Satisfaction",
-  "satisfactionDesc": "User satisfaction rating"
+  "satisfactionDesc": "User satisfaction rating",
+  "developers": "Developers",
+  "requests": "Requests",
+  "rating": "Rating"
 }

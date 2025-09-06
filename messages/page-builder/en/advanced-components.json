@@ -1,0 +1,18 @@
+{
+  "title": "Advanced Landing Page Template",
+  "description": "This is a feature-rich advanced Landing Page template built with advanced components, providing more features and configuration options, perfect for commercial projects that need professional appearance and rich interactive effects.",
+  "features": {
+    "richFeatures": {
+      "title": "Rich Features",
+      "description": "Provides more configuration options and interactive features to meet complex requirements"
+    },
+    "visualEffects": {
+      "title": "Visual Effects",
+      "description": "Includes animations, gradients and other visual effects to enhance user experience"
+    },
+    "flexibleConfig": {
+      "title": "Flexible Configuration",
+      "description": "Supports multiple layout and style configurations to adapt to different scenarios"
+    }
+  }
+}

@@ -134,7 +134,7 @@ export function CTASection({ config }: CTASectionProps) {
             <Button asChild className="w-full">
               <Link href={createLocalizedPath('/contact')}>
                 <MessageCircle className="w-4 h-4 mr-2" />
-                联系我们
+                {t('contactUs')}
               </Link>
             </Button>
           </div>

@@ -1,6 +1,6 @@
 {
-  "companyName": "SaaS Template",
+  "companyName": "SaaS 模板",
   "companyDescription": "一个现代化的 SaaS 应用程序模板，帮助您快速构建高质量的 SaaS 产品。",
-  "legal": "法律",
-  "allRightsReserved": "版权所有"
+  "legalTitle": "法律",
+  "allRightsReserved": "版权所有。"
 }

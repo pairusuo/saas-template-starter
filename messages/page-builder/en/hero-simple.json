@@ -1,0 +1,9 @@
+{
+  "hero-simple": {
+    "title": "Build Modern SaaS Application in days",
+    "subtitle": "Complete SaaS template based on Next.js 14, with authentication, payments, database, and deployment. Focus on your core product features, not infrastructure.",
+    "primaryButtonText": "Get Started",
+    "secondaryButtonText": "View Demo",
+    "showSecondaryButton": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "hero-simple": {
+    "title": "几天内构建现代化 SaaS 应用",
+    "subtitle": "基于 Next.js 14 的完整 SaaS 模板，包含身份验证、支付、数据库和部署。专注于您的核心产品功能，而非基础设施。",
+    "primaryButtonText": "立即开始",
+    "secondaryButtonText": "查看演示",
+    "showSecondaryButton": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "受到全球开发者信赖",
+  "subtitle": "加入数千名使用我们模板构建成功产品的开发者行列",
+  "joinedDevelopers": "10,000+ 开发者已加入",
+  "reviewCount": "来自 500+ 评价",
+  "trustedByCompanies": "被以下团队使用",
+  "rating": { "text": "用户评分 5.0" },
+  "userCount": { "text": "超过 10,000 名开发者在使用" },
+  "stats": {
+    "developers": "10,000+",
+    "developersLabel": "开发者",
+    "projects": "5,000+",
+    "projectsLabel": "项目构建",
+    "countries": "50+",
+    "countriesLabel": "国家",
+    "satisfaction": "99%",
+    "satisfactionLabel": "满意度"
+  },
+  "companies": {
+    "title": "被以下团队使用"
+  }
+}

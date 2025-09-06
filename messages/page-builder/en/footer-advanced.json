@@ -1,0 +1,28 @@
+{
+  "description": "A modern SaaS template to help you build high-quality products quickly.",
+  "sections": {
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal"
+  },
+  "product": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "examples": "Examples"
+  },
+  "company": {
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "legal": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  },
+  "copyright": "© {year} SaaS Template. All rights reserved.",
+  "madeWith": "Made with",
+  "by": "by"
+}

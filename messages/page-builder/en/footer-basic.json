@@ -1,0 +1,44 @@
+{
+  "footer-basic": {
+    "companyName": "SaaS Template",
+    "description": "A modern SaaS application template to help you build high-quality SaaS products quickly.",
+    "quickLinksTitle": "Quick Links",
+    "contactTitle": "Contact Us",
+    "contactEmail": "Email: hello@saastemplate.com",
+    "contactPhone": "Phone: +1 (555) 123-4567",
+    "contactAddress": "Address: San Francisco, CA",
+    "links": [
+      {
+        "label": "Product",
+        "href": "#product"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "href": "#"
+      },
+      {
+        "platform": "GitHub",
+        "href": "#"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "#"
+      }
+    ],
+    "copyright": "© 2025 SaaS Template. All rights reserved."
+  }
+}

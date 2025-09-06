@@ -1,0 +1,18 @@
+{
+  "title": "高级 Landing Page 模板",
+  "description": "这是一个功能丰富的高级 Landing Page 模板，使用高级组件构建，提供更多功能和配置选项，适合需要专业外观和丰富交互效果的商业项目。",
+  "features": {
+    "richFeatures": {
+      "title": "丰富功能",
+      "description": "提供更多的配置选项和交互功能，满足复杂需求"
+    },
+    "visualEffects": {
+      "title": "视觉效果",
+      "description": "包含动画、渐变等视觉效果，提升用户体验"
+    },
+    "flexibleConfig": {
+      "title": "灵活配置",
+      "description": "支持多种布局和样式配置，适应不同场景"
+    }
+  }
+}

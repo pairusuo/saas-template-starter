@@ -1,6 +1,6 @@
 {
   "companyName": "SaaS Template",
   "companyDescription": "A modern SaaS application template to help you build high-quality SaaS products quickly.",
-  "legal": "Legal",
-  "allRightsReserved": "All rights reserved"
+  "legalTitle": "Legal",
+  "allRightsReserved": "All rights reserved."
 }

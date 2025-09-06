@@ -8,13 +8,32 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "check:i18n": "node scripts/check-i18n.js",
+    "smoke": "pnpm -s check:i18n && pnpm -s type-check",
+    "cf:build": "next build && npx @cloudflare/next-on-pages@1",
+    "cf:preview": "pnpm -s cf:build && wrangler pages dev .vercel/output --compatibility-date=2024-05-02",
+    "cf:deploy": "pnpm -s cf:build && wrangler pages deploy .vercel/output",
+    "deploy:preview": "bash scripts/cf-deploy-all.sh preview",
+    "deploy:prod": "bash scripts/cf-deploy-all.sh production",
+    "deploy:all": "bash scripts/cf-deploy-all.sh all",
+    "env:sync:all": "bash scripts/cf-sync-env.sh all",
+    "env:sync:prod": "bash scripts/cf-sync-env.sh production",
+    "env:sync:preview": "bash scripts/cf-sync-env.sh preview",
+    "d1:migrate:remote": "bash scripts/cf-d1-migrate.sh remote",
+    "d1:migrate:local": "bash scripts/cf-d1-migrate.sh local"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@hello-pangea/dnd": "^18.0.1",
+    "@hookform/resolvers": "^5.2.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-scroll-area": "^1.2.9",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-switch": "^1.2.5",
     "@radix-ui/react-tabs": "^1.1.12",
@@ -22,17 +41,27 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.14",
+    "jszip": "^3.10.1",
     "lucide-react": "^0.365.0",
     "next": "14.1.4",
-    "next-intl": "^3.11.0",
+    "next-intl": "^3.26.5",
     "next-themes": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.62.0",
     "react-icons": "^5.5.0",
+    "sonner": "^2.0.7",
+    "stripe": "^18.4.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwind-scrollbar": "^3.1.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^4.0.14",
+    "zustand": "^5.0.7"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
+    "@types/json-schema": "^7.0.15",
+    "@types/jszip": "^3.4.1",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.69",
     "@types/react-dom": "^18.2.22",
@@ -45,7 +74,8 @@
     "typescript": "^5.4.3"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20 <21"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "pnpm@10.11.1+sha512.e519b9f7639869dc8d5c3c5dfef73b3f091094b0a006d7317353c72b124e80e1afd429732e28705ad6bfa1ee879c1fce46c128ccebd3192101f43dd67c667912"
 }

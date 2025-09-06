@@ -8,14 +8,10 @@ import { defaultLocale } from '@/lib/i18n-config';
  * @returns 本地化后的路径
  */
 export function createLocalizedPath(path: string, locale: string = defaultLocale): string {
-  // 如果是默认语言，不添加语言前缀
-  if (locale === defaultLocale) {
-    return path;
-  }
-  
   // 确保路径以 / 开头
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;
-  
+  // 始终显式携带语言前缀以匹配 [locale] 目录结构
+  if (normalizedPath === '/') return `/${locale}`;
   return `/${locale}${normalizedPath}`;
 }
 

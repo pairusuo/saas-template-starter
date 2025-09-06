@@ -1,0 +1,153 @@
+{
+  "hero": {
+    "title": "SaaS Landing Page 模板",
+    "subtitle": "基于 Next.js 14、React 18 和 TypeScript 构建的现代化 SaaS Landing Page 模板集合。提供三种不同风格的模板，满足从简单到复杂的各种项目需求。",
+    "viewDemo": "查看模板演示",
+    "compareTemplates": "模板对比",
+    "pageBuilder": "拖拽构建器",
+    "github": "GitHub",
+    "badge": "可视化构建器"
+  },
+  "features": {
+    "title": "为什么选择我们的模板？",
+    "subtitle": "经过精心设计和优化的模板，帮助您快速构建专业的 SaaS Landing Page",
+    "pageBuilder": {
+      "title": "拖拽式构建器",
+      "description": "可视化页面构建器，实时预览，所见即所得",
+      "dragDrop": "直观的拖拽编辑",
+      "realTime": "实时预览与编辑",
+      "export": "导出干净、可用于生产的代码"
+    },
+    "componentLibrary": {
+      "title": "丰富的组件库",
+      "description": "内置大量可定制的预设组件",
+      "rich": "100+ 预设组件",
+      "customizable": "组件属性与样式完全可定制",
+      "typeSafe": "全量 TypeScript 类型支持"
+    },
+    "readyToUse": {
+      "title": "开箱即用",
+      "description": "无需复杂配置，克隆项目即可开始使用，快速启动您的产品页面"
+    },
+    "modernDesign": {
+      "title": "现代化设计",
+      "description": "采用最新的设计趋势和最佳实践，确保您的页面看起来专业且现代"
+    },
+    "fullyCustomizable": {
+      "title": "完全可定制",
+      "description": "所有组件都支持自定义配置，轻松适配您的品牌和产品需求"
+    },
+    "responsive": {
+      "title": "响应式设计",
+      "description": "在所有设备上都能完美显示，从手机到桌面端的完美适配",
+      "mobile": "移动端优先的设计",
+      "tablet": "平板端优化布局",
+      "desktop": "桌面端增强体验"
+    },
+    "typeSafe": {
+      "title": "类型安全",
+      "description": "使用 TypeScript 构建，提供完整的类型支持和更好的开发体验"
+    },
+    "performanceOptimized": {
+      "title": "性能优化",
+      "description": "基于 Next.js 14 构建，享受最新的性能优化和开发体验"
+    },
+    "i18n": {
+      "title": "国际化支持",
+      "description": "内置多语言与自动翻译能力",
+      "multiLanguage": "多语言支持",
+      "autoTranslation": "自动生成翻译占位",
+      "seoOptimized": "针对每种语言进行 SEO 优化"
+    },
+    "performance": {
+      "title": "性能优化",
+      "description": "现代优化技术带来极速体验",
+      "fast": "极快的加载速度",
+      "optimized": "面向核心 Web 体验指标优化",
+      "seo": "更友好的 SEO 结构"
+    },
+    "community": {
+      "title": "活跃社区",
+      "description": "加入不断成长的开发者与设计师社区",
+      "active": "活跃的社区支持",
+      "documentation": "完善的文档",
+      "support": "7x24 社区互助"
+    }
+  },
+  "quickStart": {
+    "title": "快速开始",
+    "subtitle": "只需几个简单步骤，即可开始使用我们的模板",
+    "step1": {
+      "title": "选择模板",
+      "description": "浏览我们的三种模板，选择最适合您项目需求的一种"
+    },
+    "step2": {
+      "title": "克隆项目",
+      "description": "克隆项目到本地，安装依赖，即可开始开发"
+    },
+    "step3": {
+      "title": "自定义内容",
+      "description": "根据您的品牌和产品需求，自定义内容和样式"
+    },
+    "installTitle": "安装和运行",
+    "cloneComment": "# 克隆项目",
+    "installComment": "# 安装依赖",
+    "runComment": "# 启动开发服务器"
+  },
+  "templates": {
+    "title": "三种 Landing Page 模板",
+    "subtitle": "我们为您精心准备了三种不同风格的 Landing Page 模板，每种都针对不同的使用场景和开发需求进行了优化。选择最适合您项目的模板，快速启动您的产品页面。",
+    "basic": {
+      "title": "基础模板",
+      "description": "简洁优雅的设计，开箱即用。适合初学者和需要快速上线的项目，包含所有必要的基础组件。",
+      "features": {
+        "zeroConfig": "零配置启动",
+        "responsive": "响应式设计",
+        "quickDeploy": "快速部署"
+      },
+      "button": "查看基础模板"
+    },
+    "advanced": {
+      "title": "高级模板",
+      "description": "功能丰富的专业模板，包含动画效果和高级交互。适合商业项目和需要专业外观的产品。",
+      "features": {
+        "richAnimations": "丰富动画效果",
+        "advancedComponents": "高级交互组件",
+        "professionalDesign": "专业视觉设计"
+      },
+      "button": "查看高级模板"
+    },
+    "custom": {
+      "title": "自定义模板",
+      "description": "完全可定制的灵活模板，提供所有组件的原始访问。适合有特殊需求的开发者和复杂定制项目。",
+      "features": {
+        "fullyCustomizable": "完全自定义配置",
+        "rawAccess": "原始组件访问",
+        "flexibleCombination": "灵活组合使用"
+      },
+      "button": "查看自定义模板"
+    },
+    "howToChoose": {
+      "title": "如何选择合适的模板？",
+      "basic": {
+        "title": "选择基础模板",
+        "description": "如果您是新手或需要快速启动项目"
+      },
+      "advanced": {
+        "title": "选择高级模板",
+        "description": "如果您需要专业外观和丰富功能"
+      },
+      "custom": {
+        "title": "选择自定义模板",
+        "description": "如果您有特殊需求或想要完全控制"
+      }
+    }
+  },
+  "techStack": {
+    "nextjs": "Next.js 14",
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "shadcn": "Shadcn/ui"
+  }
+}

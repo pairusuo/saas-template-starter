@@ -1,0 +1,44 @@
+{
+  "footer-basic": {
+    "companyName": "SaaS 模板",
+    "description": "一个现代化的 SaaS 应用程序模板，帮助您快速构建高质量的 SaaS 产品。",
+    "quickLinksTitle": "快速链接",
+    "contactTitle": "联系我们",
+    "contactEmail": "邮箱: hello@saastemplate.com",
+    "contactPhone": "电话: +86 138 0013 8000",
+    "contactAddress": "地址: 北京市朝阳区",
+    "links": [
+      {
+        "label": "产品",
+        "href": "#product"
+      },
+      {
+        "label": "定价",
+        "href": "#pricing"
+      },
+      {
+        "label": "关于我们",
+        "href": "#about"
+      },
+      {
+        "label": "联系我们",
+        "href": "#contact"
+      }
+    ],
+    "socialLinks": [
+      {
+        "platform": "微博",
+        "href": "#"
+      },
+      {
+        "platform": "GitHub",
+        "href": "#"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "#"
+      }
+    ],
+    "copyright": "© 2025 SaaS 模板。保留所有权利。"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Custom Landing Page Template",
+  "description": "This is a fully customizable Landing Page template that showcases all raw component exports, supports complete custom configuration, perfect for developers with special needs for deep customization.",
+  "sections": {
+    "hero": {
+      "title": "Hero Section Components",
+      "simple": "HeroSimple - Simple Hero Section",
+      "centered": "HeroCentered - Centered Hero Section"
+    },
+    "features": {
+      "title": "Feature Components",
+      "grid": "FeaturesGrid - Grid Layout Features",
+      "list": "FeaturesList - List Layout Features"
+    },
+    "stats": {
+      "title": "Statistics Components",
+      "minimal": "StatsMinimal - Minimal Statistics",
+      "basic": "StatsBasic - Basic Statistics"
+    },
+    "testimonials": {
+      "title": "Testimonials Components",
+      "simple": "TestimonialsSimple - Simple Testimonials",
+      "grid": "TestimonialsGrid - Grid Testimonials"
+    },
+    "socialProof": {
+      "title": "Social Proof Components",
+      "avatars": "SocialProofAvatars - User Avatar Proof",
+      "logos": "SocialProofLogos - Brand Logo Proof"
+    }
+  },
+  "customization": {
+    "title": "Complete Customization",
+    "description": "All components support complete custom configuration, you can adjust any parameters according to project requirements.",
+    "features": {
+      "rawExport": {
+        "title": "Raw Export",
+        "description": "Use raw component exports directly without any preset configuration"
+      },
+      "fullControl": {
+        "title": "Full Control",
+        "description": "Have complete control over every property of the component"
+      },
+      "flexibleCombination": {
+        "title": "Flexible Combination",
+        "description": "Freely combine different components to create unique pages"
+      },
+      "developerFriendly": {
+        "title": "Developer Friendly",
+        "description": "Perfect for experienced developers for deep customization"
+      }
+    }
+  }
+}

@@ -187,3 +187,312 @@
     @apply text-black bg-white;
   }
 }
+
+/* Mobile-first responsive utilities */
+@layer utilities {
+  /* 移动端优化的容器 */
+  .container-mobile {
+    @apply px-4 sm:px-6 lg:px-8;
+    max-width: 100%;
+  }
+
+  /* 移动端优化的间距 */
+  .space-mobile {
+    @apply space-y-4 sm:space-y-6 lg:space-y-8;
+  }
+
+  /* 移动端优化的网格 */
+  .grid-mobile {
+    @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
+
+  /* 移动端优化的文本 */
+  .text-mobile {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  /* 移动端优化的标题 */
+  .heading-mobile {
+    @apply text-2xl sm:text-3xl lg:text-4xl xl:text-5xl;
+  }
+
+  /* 移动端优化的按钮 */
+  .btn-mobile {
+    @apply w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base;
+  }
+
+  /* 移动端优化的卡片 */
+  .card-mobile {
+    @apply p-4 sm:p-6 lg:p-8;
+  }
+
+  /* 移动端优化的导航 */
+  .nav-mobile {
+    @apply flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4;
+  }
+
+  /* 移动端优化的表单 */
+  .form-mobile {
+    @apply space-y-4 sm:space-y-6;
+  }
+
+  /* 移动端优化的列表 */
+  .list-mobile {
+    @apply space-y-2 sm:space-y-3;
+  }
+
+  /* 移动端优化的模态框 */
+  .modal-mobile {
+    @apply m-4 sm:m-8 lg:m-16;
+  }
+
+  /* 移动端优化的侧边栏 */
+  .sidebar-mobile {
+    @apply w-full sm:w-64 lg:w-80;
+  }
+
+  /* 移动端优化的工具栏 */
+  .toolbar-mobile {
+    @apply flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-2;
+  }
+
+  /* 移动端优化的面板 */
+  .panel-mobile {
+    @apply p-3 sm:p-4 lg:p-6;
+  }
+
+  /* 移动端优化的表格 */
+  .table-mobile {
+    @apply text-xs sm:text-sm lg:text-base;
+  }
+
+  /* 移动端优化的图片 */
+  .img-mobile {
+    @apply w-full h-auto object-cover;
+  }
+
+  /* 移动端优化的图标 */
+  .icon-mobile {
+    @apply w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6;
+  }
+
+  /* 移动端优化的徽章 */
+  .badge-mobile {
+    @apply text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-1.5;
+  }
+
+  /* 移动端优化的输入框 */
+  .input-mobile {
+    @apply text-sm sm:text-base px-3 sm:px-4 py-2 sm:py-3;
+  }
+
+  /* 移动端优化的选择器 */
+  .select-mobile {
+    @apply text-sm sm:text-base px-3 sm:px-4 py-2 sm:py-3;
+  }
+
+  /* 移动端优化的文本区域 */
+  .textarea-mobile {
+    @apply text-sm sm:text-base px-3 sm:px-4 py-2 sm:py-3;
+  }
+
+  /* 移动端优化的复选框 */
+  .checkbox-mobile {
+    @apply w-4 h-4 sm:w-5 sm:h-5;
+  }
+
+  /* 移动端优化的单选按钮 */
+  .radio-mobile {
+    @apply w-4 h-4 sm:w-5 sm:h-5;
+  }
+
+  /* 移动端优化的开关 */
+  .switch-mobile {
+    @apply w-10 h-6 sm:w-12 sm:h-7;
+  }
+
+  /* 移动端优化的进度条 */
+  .progress-mobile {
+    @apply h-2 sm:h-3 lg:h-4;
+  }
+
+  /* 移动端优化的滑块 */
+  .slider-mobile {
+    @apply h-2 sm:h-3 lg:h-4;
+  }
+
+  /* 移动端优化的标签页 */
+  .tabs-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的手风琴 */
+  .accordion-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的下拉菜单 */
+  .dropdown-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的工具提示 */
+  .tooltip-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的弹出框 */
+  .popover-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的对话框 */
+  .dialog-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的抽屉 */
+  .drawer-mobile {
+    @apply w-full sm:w-80 lg:w-96;
+  }
+
+  /* 移动端优化的面包屑 */
+  .breadcrumb-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的分页 */
+  .pagination-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的标签 */
+  .tag-mobile {
+    @apply text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-1.5;
+  }
+
+  /* 移动端优化的头像 */
+  .avatar-mobile {
+    @apply w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12;
+  }
+
+  /* 移动端优化的头像组 */
+  .avatar-group-mobile {
+    @apply -space-x-2 sm:-space-x-3 lg:-space-x-4;
+  }
+
+  /* 移动端优化的评分 */
+  .rating-mobile {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  /* 移动端优化的统计 */
+  .stats-mobile {
+    @apply text-2xl sm:text-3xl lg:text-4xl;
+  }
+
+  /* 移动端优化的时间线 */
+  .timeline-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的步骤 */
+  .steps-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的通知 */
+  .notification-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的加载器 */
+  .loader-mobile {
+    @apply w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10;
+  }
+
+  /* 移动端优化的骨架屏 */
+  .skeleton-mobile {
+    @apply h-4 sm:h-5 lg:h-6;
+  }
+
+  /* 移动端优化的空状态 */
+  .empty-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的错误状态 */
+  .error-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的成功状态 */
+  .success-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的警告状态 */
+  .warning-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的信息状态 */
+  .info-mobile {
+    @apply text-sm sm:text-base;
+  }
+
+  /* 移动端优化的帮助文本 */
+  .help-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的必填标记 */
+  .required-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的可选标记 */
+  .optional-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的字数统计 */
+  .count-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的验证消息 */
+  .validation-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的提示消息 */
+  .hint-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的描述文本 */
+  .description-mobile {
+    @apply text-xs sm:text-sm;
+  }
+
+  /* 移动端优化的副标题 */
+  .subtitle-mobile {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+
+  /* 移动端优化的标题 */
+  .title-mobile {
+    @apply text-lg sm:text-xl lg:text-2xl xl:text-3xl;
+  }
+
+  /* 移动端优化的主标题 */
+  .heading-mobile {
+    @apply text-xl sm:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl;
+  }
+
+  /* 移动端优化的超大标题 */
+  .hero-mobile {
+    @apply text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl;
+  }
+}

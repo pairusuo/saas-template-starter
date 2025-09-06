@@ -2,10 +2,15 @@
   "title": "Build Modern SaaS Application in days",
   "titleHighlight": "SaaS Application",
   "subtitle": "Complete SaaS template based on Next.js 14, with authentication, payments, database, and deployment. Focus on your core product features, not infrastructure.",
-  "announcement": "🚀 New: Enhanced UI Components & A/B Testing Ready",
+  "announcement": "🚀 New: Enhanced UI components and A/B testing support",
+  "badge": "New: Enhanced UI components and A/B testing support",
   "getStarted": "Get Started",
   "viewDemo": "View Demo",
   "viewPricing": "View Pricing",
+  "cta": {
+    "primary": "Get Started",
+    "secondary": "View Demo"
+  },
   "socialProof": {
     "users": "10,000+ developers",
     "rating": "from 500+ reviews"
@@ -15,5 +20,12 @@
     "activeUsers": "Active Users",
     "responseTime": "Response Time",
     "support": "Support"
+  },
+  "hero-simple_1754396868785-grjyfby90": {
+    "title": "构建现代化 SaaS 应用",
+    "subtitle": "基于 Next.js 14 的完整 SaaS 模板，包含身份验证、支付、数据库和部署。专注于您的核心产品功能，而非基础设施。",
+    "primaryButtonText": "立即开始",
+    "secondaryButtonText": "查看演示",
+    "showSecondaryButton": true
   }
 }

@@ -85,7 +85,7 @@ export function HowItWorksSection({
               </div>
             </div>
             <div className="mb-2 text-sm font-semibold text-primary">
-              第 {index + 1} 步
+              {t('step')} {index + 1}
             </div>
             <h3 className="text-xl font-bold mb-3">{step.title}</h3>
             <p className="text-muted-foreground mb-4">{step.description}</p>
@@ -102,7 +102,7 @@ export function HowItWorksSection({
           <div className="flex-1 pb-16">
             <div className="flex items-center gap-3 mb-3">
               <Icon className="w-5 h-5 text-primary" />
-              <span className="text-sm font-semibold text-primary">第 {index + 1} 步</span>
+              <span className="text-sm font-semibold text-primary">{t('step')} {index + 1}</span>
             </div>
             <h3 className="text-xl font-bold mb-3">{step.title}</h3>
             <p className="text-muted-foreground mb-3">{step.description}</p>

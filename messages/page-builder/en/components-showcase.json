@@ -1,0 +1,72 @@
+{
+  "title": "Landing Page Template Center",
+  "subtitle": "Explore our carefully designed three Landing Page templates, each optimized for different use cases and development needs",
+  "badges": {
+    "react": "React 18",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "responsive": "Responsive Design"
+  },
+  "componentTypes": {
+    "basic": {
+      "title": "Basic Components",
+      "description": "Ready-to-use simple components with minimal configuration, perfect for quick setup",
+      "badge": "Recommended for Beginners",
+      "features": {
+        "zeroConfig": "Zero configuration startup",
+        "simpleDesign": "Clean design style",
+        "quickDeploy": "Quick deployment",
+        "easyMaintain": "Easy to maintain"
+      }
+    },
+    "advanced": {
+      "title": "Advanced Components",
+      "description": "Feature-rich components with more configuration options and visual effects",
+      "badge": "Feature Rich",
+      "features": {
+        "richConfig": "Rich configuration options",
+        "animations": "Animations and visual effects",
+        "multiLayout": "Multiple layout modes",
+        "fullInteraction": "Complete interactive features"
+      }
+    },
+    "custom": {
+      "title": "Custom Components",
+      "description": "Fully customizable components with deep customization configuration support",
+      "badge": "For Developers",
+      "features": {
+        "fullCustom": "Fully customizable configuration",
+        "rawExport": "Raw component export",
+        "flexibleUse": "Flexible combination usage",
+        "complexNeeds": "Suitable for complex requirements"
+      }
+    }
+  },
+  "buttons": {
+    "viewComponents": "View Components"
+  },
+  "guide": {
+    "title": "How to Choose the Right Components?",
+    "subtitle": "Choose the most suitable component type based on your project needs and development experience",
+    "steps": {
+      "step1": {
+        "title": "Beginners or Quick Prototyping",
+        "description": "Choose basic components, zero configuration ready to use, quickly build product prototypes"
+      },
+      "step2": {
+        "title": "Commercial Projects",
+        "description": "Choose advanced components, rich features and visual effects enhance user experience"
+      },
+      "step3": {
+        "title": "Custom Requirements",
+        "description": "Choose custom components, complete control over every detail, meet special needs"
+      }
+    }
+  },
+  "cta": {
+    "title": "Start Exploring Components",
+    "subtitle": "Each component is carefully designed and tested to ensure perfect operation in various scenarios",
+    "startBasic": "Start with Basic Components",
+    "viewAdvanced": "View Advanced Components"
+  }
+}

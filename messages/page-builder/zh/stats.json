@@ -1,0 +1,21 @@
+{
+  "title": "数据胜过营销",
+  "subtitle": "真实数据展示我们模板的可靠性和性能表现",
+  "badge": "数据统计",
+  "uptime": {
+    "label": "正常运行时间",
+    "description": "99.9% 服务可用性保证"
+  },
+  "users": {
+    "label": "活跃用户",
+    "description": "每月活跃开发者数量"
+  },
+  "countries": {
+    "label": "国家/地区",
+    "description": "已在 50+ 个国家/地区被使用"
+  },
+  "response": {
+    "label": "响应时间",
+    "description": "平均 API 响应速度"
+  }
+}

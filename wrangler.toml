@@ -1,0 +1,21 @@
+name = "saas-template-starter"
+compatibility_date = "2025-09-05"
+
+[pages]
+# next-on-pages outputs to .vercel/output
+build_output_dir = ".vercel/output"
+pages_build_output_dir = ".vercel/output"
+
+# Adjust as needed if you use KV/Queues/D1 later
+
+# --- Cloudflare D1 binding (requires Cloudflare-side DB creation) ---
+# NOTE: Fill in the correct database_id after creating the D1 database.
+# This change was made with explicit approval; secrets are not stored here.
+[[d1_databases]]
+binding = "DB"
+database_name = "saas-template-starter"
+database_id = "d6f32534-a1cb-42e0-aa2d-4517fe3449fa"
+
+# --- Non-secret environment variables (placeholders) ---
+# Secrets like AUTH_SECRET / STRIPE_SECRET_KEY / GITHUB_CLIENT_SECRET must be set
+# via Cloudflare dashboard or `wrangler secret put`, not committed here.

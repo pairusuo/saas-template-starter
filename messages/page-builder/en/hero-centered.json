@@ -1,0 +1,9 @@
+{
+  "hero-centered": {
+    "badge": "New: Enhanced UI Components",
+    "title": "Build Modern SaaS Apps in Days",
+    "subtitle": "Complete SaaS template based on Next.js 14 with authentication, payments, database, and deployment. Focus on your core product features, not infrastructure.",
+    "primaryButtonText": "Get Started",
+    "secondaryButtonText": "View Demo"
+  }
+}

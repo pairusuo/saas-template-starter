@@ -1,62 +1,77 @@
 {
   "title": "简单透明的定价",
-  "subtitle": "没有隐藏费用，没有意外成本。选择适合您需求的方案",
+  "subtitle": "简单透明的定价，无隐藏费用。随时升级或降级。",
   "badge": "定价方案",
   "monthly": "月付",
   "yearly": "年付",
-  "save": "节省20%",
+  "year": "/年", 
+  "month": "/月",
+  "annual": "年付",
+  "save": "节省",
   "getStarted": "立即开始",
   "contactSales": "联系销售",
   "mostPopular": "最受欢迎",
   "popular": "最受欢迎",
+  "needMore": "需要更多功能或有特殊需求？",
+  "contactCustom": "联系我们定制方案",
   "billing": {
-    "monthly": "月付",
-    "annual": "年付",
+    "monthly": "按月计费",
+    "annual": "按年计费",
+    "annually": "/年",
     "save20": "节省20%"
+  },
+  "table": {
+    "features": "功能"
   },
   "plans": {
     "starter": {
       "name": "入门版",
-      "description": "适合个人和小型项目",
-      "price": "¥299",
-      "period": "一次性付费",
+      "description": "适合个人开发者和小型项目",
+      "priceMonthly": "¥39",
+      "priceAnnual": "¥299",
+      "periodMonthly": "/月",
+      "periodAnnual": "/年",
+      "cta": "开始使用",
       "features": [
-        "完整源代码",
-        "基础组件库",
-        "身份验证系统",
-        "数据库集成",
-        "邮件支持",
-        "6个月更新"
+        "5个项目",
+        "10GB 存储空间",
+        "基础技术支持",
+        "社区访问权限",
+        "基础分析功能"
       ]
     },
     "pro": {
       "name": "专业版",
-      "description": "适合成长中的企业和团队",
-      "price": "¥599",
-      "period": "一次性付费",
+      "description": "适合成长中的团队和企业",
+      "priceMonthly": "¥99",
+      "priceAnnual": "¥999",
+      "periodMonthly": "/月",
+      "periodAnnual": "/年",
+      "cta": "立即升级",
       "features": [
-        "包含入门版所有功能",
-        "高级组件",
-        "支付集成",
-        "分析仪表板",
-        "优先支持",
-        "12个月更新",
-        "自定义品牌"
+        "无限项目",
+        "100GB 存储空间",
+        "优先技术支持",
+        "高级分析功能",
+        "团队协作工具",
+        "API 访问权限",
+        "自定义集成"
       ]
     },
     "enterprise": {
       "name": "企业版",
-      "description": "适合有定制需求的大型组织",
-      "price": "定制",
-      "period": "联系我们",
+      "description": "适合大型企业和定制需求",
+      "price": "联系我们",
+      "period": "",
+      "cta": "联系销售",
       "features": [
-        "包含专业版所有功能",
-        "定制开发",
-        "专属支持",
-        "SLA保证",
-        "私有部署",
-        "培训和咨询",
-        "无限更新"
+        "无限项目和存储",
+        "24/7 专属支持",
+        "高级安全功能",
+        "定制开发服务",
+        "专属客户经理",
+        "SLA 保障",
+        "私有部署选项"
       ]
     }
   }

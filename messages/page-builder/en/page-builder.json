@@ -1,0 +1,314 @@
+{
+  "title": "Page Builder",
+  "welcome": {
+    "title": "Welcome to Page Builder",
+    "description": "Start creating your first page layout",
+    "createNewPage": "Create New Page",
+    "defaultPageName": "New Page",
+    "defaultPageDescription": "Page created with drag-and-drop builder"
+  },
+  "toolbar": {
+    "preview": "Preview",
+    "save": "Save",
+    "saving": "Saving...",
+    "export": "Export Code",
+    "import": "Import",
+    "clear": "Clear",
+    "applyToProject": "Apply to Project",
+    "settings": "Settings",
+    "translatePage": "Translate Page",
+    "translating": "Translating..."
+  },
+  "componentPanel": {
+    "title": "Component Library",
+    "description": "Drag components to the canvas to use them",
+    "search": "Search components...",
+    "categories": {
+      "all": "All",
+      "layout": "Layout",
+      "hero": "Hero",
+      "features": "Features",
+      "testimonials": "Testimonials",
+      "stats": "Statistics",
+      "socialProof": "Social Proof",
+      "social-proof": "Social Proof",
+      "footer": "Footer",
+      "header": "Header",
+      "content": "Content",
+      "form": "Form",
+      "navigation": "Navigation",
+      "cta": "Call to Action",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "site-control": "Site Controls"
+    },
+    "components": {
+      "heroSimple": "Simple Hero",
+      "heroCentered": "Centered Hero",
+      "headerBasic": "Basic Header",
+      "footerBasic": "Basic Footer",
+      "featuresGrid": "Features Grid",
+      "featuresList": "Features List",
+      "testimonialsGrid": "Testimonials Grid",
+      "testimonialsSimple": "Simple Testimonials",
+      "statsBasic": "Basic Stats",
+      "statsMinimal": "Minimal Stats",
+      "socialProofLogos": "Brand Logos",
+      "socialProofAvatars": "User Avatars",
+      "ctaSimple": "Simple CTA",
+      "ctaSplit": "Split CTA",
+      "pricingCards": "Pricing Cards",
+      "faqAccordion": "FAQ Accordion",
+      "siteControlPillDock": "Site Control · Pill Dock",
+      "siteControlGearPopover": "Site Control · Gear Popover",
+      "siteControlInlineBar": "Site Control · Inline Bar"
+    },
+    "descriptions": {
+      "heroSimple": "A simple hero section with title, subtitle and actions",
+      "heroCentered": "A centered hero with badge, title and buttons",
+      "headerBasic": "A basic site header with navigation",
+      "footerBasic": "A basic footer with links and info",
+      "featuresGrid": "Showcase features in a grid layout",
+      "featuresList": "Showcase features in a list layout",
+      "testimonialsGrid": "Customer testimonials in a grid",
+      "testimonialsSimple": "Simple customer testimonials",
+      "statsBasic": "Basic statistics display",
+      "statsMinimal": "Minimal style statistics",
+      "socialProofLogos": "Display partner or brand logos",
+      "socialProofAvatars": "Display user avatars as social proof",
+      "ctaSimple": "Simple call-to-action with title, description and button",
+      "ctaSplit": "Two-column call-to-action with features and actions",
+      "pricingCards": "Pricing cards with monthly/yearly toggle and feature comparison",
+      "faqAccordion": "Accordion-based FAQ with categories and search",
+      "siteControlPillDock": "A floating pill dock (top-right/bottom-right) combining language and theme switchers",
+      "siteControlGearPopover": "A gear button that opens a settings card with language and theme controls",
+      "siteControlInlineBar": "An inline bar suitable for header or content areas"
+    },
+    "testComponent": "Test Component",
+    "testComponentDescription": "This is a test component to verify scrolling functionality",
+    "categoryTestDescription": "This is a test component under the {{category}} category",
+    "totalComponents": "{count} components total"
+  },
+  "propertyPanel": {
+    "title": "Properties",
+    "noSelection": "Select a component to edit properties",
+    "general": "General",
+    "style": "Style",
+    "content": "Content",
+    "layout": "Layout",
+    "spacing": "Spacing",
+    "typography": "Typography",
+    "colors": "Colors",
+    "background": "Background",
+    "border": "Border",
+    "effects": "Effects",
+    "componentId": "Component ID",
+    "componentType": "Component Type",
+    "position": "Position",
+    "positionAdjustment": "Position Adjustment",
+    "moveUp": "Move Up",
+    "moveDown": "Move Down",
+    "propertyConfig": "Property Configuration",
+    "realTimeTranslation": "Real-time Translation",
+    "applyChanges": "Apply Changes",
+    "resetProperties": "Reset Properties"
+  },
+  "canvas": {
+    "empty": {
+      "title": "Start building your page",
+      "description": "Drag components from the left panel here",
+      "hint": "Tip: You can drag components to reorder them"
+    },
+    "dropHere": "Drop components here",
+    "dropToAdd": "Release to add component",
+    "dropDescription": "Place components here to start building your page",
+    "moveComponent": "Move component",
+    "deleteComponent": "Delete component",
+    "duplicateComponent": "Duplicate component",
+    "editComponent": "Edit component",
+    "previewIndicator": {
+      "mobile": "📱 Mobile Preview",
+      "tablet": "📲 Tablet Preview",
+      "desktop": "🖥️ Desktop Preview"
+    }
+  },
+  "preview": {
+    "title": "Preview Page",
+    "mode": "Preview Mode",
+    "close": "Close Preview",
+    "loading": "Loading preview...",
+    "noData": "No preview data found",
+    "backToBuilder": "Please go back to the page builder and click the preview button",
+    "untitledPage": "Untitled Page",
+    "generatedBy": "This page was generated by the page builder",
+    "exitPreview": "Exit Preview",
+    "backToEditor": "Back to Editor",
+    "responsive": {
+      "desktop": "Desktop",
+      "tablet": "Tablet",
+      "mobile": "Mobile"
+    },
+    "summary": {
+      "components": "{count} items",
+      "currentView": "Current View"
+    }
+  },
+  "siteControls": {
+    "settings": "Settings",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "i18n": {
+    "title": "Internationalization",
+    "generatorTitle": "Smart Internationalization Generator",
+    "generatorSubtitle": "Convert your drag-and-drop page into a fully localized, multi-language page",
+    "statusTitle": "Current Status",
+    "stats": {
+      "componentCount": "Component Count",
+      "componentCountDesc": "Total number of components on the page",
+      "countWithUnit": "{count} items"
+    },
+    "currentLanguage": "Current Language",
+    "currentLanguageDesc": "Language environment currently being edited",
+    "languages": {
+      "en": "English",
+      "zh": "Chinese"
+    },
+    "generateTitle": "Smart Generation",
+    "smartUpdateHome": {
+      "title": "Smartly Update Homepage",
+      "recommended": "Recommended",
+      "description": "Automatically back up the original file, intelligently update translations, and keep your custom content intact",
+      "button": "Smartly Update Homepage"
+    },
+    "generating": "Generating...",
+    "generateStandalone": {
+      "title": "Generate Standalone Page",
+      "description": "Generate a standalone internationalized page without affecting the current homepage",
+      "button": "Generate Standalone Page"
+    },
+    "features": {
+      "title": "Features",
+      "realtime": "Real-time translation of component properties",
+      "merge": "Intelligently merge existing translations",
+      "backup": "Automatically back up original files",
+      "bidirectional": "Support bidirectional translation between Chinese and English"
+    },
+    "instructions": {
+      "title": "Instructions",
+      "step1": "Add and configure components on the canvas",
+      "step2": "Translations update automatically when editing component properties",
+      "step3": "Choose a generation method and click the generate button",
+      "step4": "System will handle translations and file updates automatically"
+    },
+    "notes": {
+      "title": "Notes",
+      "itemBackup": "Smart update will back up original files to the backups/ directory",
+      "itemSave": "Translations are saved under the messages/ directory for relevant components",
+      "itemPreview": "Preview translations first and confirm before updating the homepage",
+      "itemRestart": "Restart the dev server after generation to see the latest changes"
+    },
+    "codePreview": {
+      "title": "Generated Code",
+      "download": "Download Code"
+    },
+    "download": {
+      "success": "Code downloaded",
+      "emptyError": "No code available to download"
+    },
+    "addTranslation": "Add Translation",
+    "generateTranslation": "Generate Translation",
+    "translationKey": "Translation Key",
+    "translationValue": "Translation Value",
+    "autoTranslate": "Auto Translate"
+  },
+  "actions": {
+    "save": "Save Page",
+    "saveAs": "Save As",
+    "export": "Export Code",
+    "import": "Import Layout",
+    "clear": "Clear Canvas",
+    "preview": "Preview Page",
+    "publish": "Publish Page",
+    "duplicate": "Duplicate Page",
+    "delete": "Delete Page",
+    "rename": "Rename",
+    "settings": "Page Settings",
+    "dragMove": "Drag to move",
+    "editProperties": "Edit properties",
+    "duplicateComponent": "Duplicate component",
+    "deleteComponent": "Delete component",
+    "toggleComponentPanel": "Toggle component panel",
+    "togglePropertiesPanel": "Toggle properties panel"
+  },
+  "messages": {
+    "saved": "Page saved",
+    "exported": "Code exported",
+    "imported": "Layout imported",
+    "cleared": "Canvas cleared",
+    "published": "Page published",
+    "duplicated": "Page duplicated",
+    "deleted": "Page deleted",
+    "renamed": "Page renamed",
+    "error": "Operation failed, please try again",
+    "unsavedChanges": "You have unsaved changes, are you sure you want to leave?",
+    "noComponentsPreview": "Please add some components first before previewing",
+    "noLayoutToSave": "No page layout to save",
+    "noComponentsToSave": "Please add some components first before saving",
+    "saveSuccess": "Page saved successfully!\n\nFile path: {{filePath}}\nFile name: {{fileName}}\n\nYou can find the generated TSX file in {{filePath}}.",
+    "saveFailed": "Save failed: {{error}}",
+    "unknownError": "Unknown error",
+    "noComponentsToExport": "Please add some components first before exporting code",
+    "codeExported": "Code exported! The file contains components and properties identical to those in the page builder.",
+    "settingsInDevelopment": "Settings feature is under development...",
+    "noComponentsToTranslate": "Please add some components first before translating",
+    "confirmTranslate": "Are you sure you want to translate the current page to {{targetLang}}?\n\nThis will call the translation API, please ensure the translation service is configured.",
+    "translateSuccess": "Translation completed!\n\nOriginal language: {{originalLang}}\nTarget language: {{targetLang}}\nTranslation provider: {{provider}}\n\nThe translation result has been opened for preview in a new window.",
+    "translateFailed": "Translation failed: {{error}}\n\nDetails: {{details}}",
+    "translateRequestFailed": "Translation request failed: {{error}}",
+    "networkError": "Network error",
+    "confirmClear": "Are you sure you want to clear the canvas? This action cannot be undone.",
+    "noComponentsToApply": "Please add some components first before applying to project",
+    "confirmApplyToProject": "Are you sure you want to apply the current built page to the project homepage?\\n\\nThis will replace the project's current homepage layout.",
+    "applyToProjectSuccess": "Page has been successfully applied to project homepage!\\n\\nYou can visit the project homepage to see the changes.",
+    "applyToProjectFailed": "Failed to apply to project homepage: {{error}}",
+    "openProjectHome": "Would you like to open the project homepage now to see the results?"
+  },
+  "placeholders": {
+    "pageName": "Enter page name...",
+    "pageDescription": "Enter page description...",
+    "searchComponents": "Search components...",
+    "componentName": "Component name",
+    "propertyValue": "Property value"
+  },
+  "fixedPosition": {
+    "header": "Header",
+    "footer": "Footer",
+    "fixed": "Fixed",
+    "fixedComponent": "Fixed Position Component",
+    "cannotMove": "This component has a fixed position and cannot be moved",
+    "cannotDrag": "This component has a fixed position and cannot be dragged after adding",
+    "moveUpDown": "Move Up/Down",
+    "currentPosition": "Current Position",
+    "componentSuffix": "component",
+    "headerFixed": "Header Fixed",
+    "footerFixed": "Footer Fixed",
+    "cannotMoveWarning": "Fixed position components cannot be moved"
+  },
+  "translation": {
+    "updated": "Translation updated",
+    "updateSuccess": "Synchronized updates to {count} translation files",
+    "updateFailed": "Translation update failed",
+    "unknownError": "Unknown error",
+    "networkError": "Network error or server exception"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "cancel": "Cancel",
+    "updating": "Updating...",
+    "path": "Path",
+    "file": "File"
+  }
+}

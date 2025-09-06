@@ -1,0 +1,27 @@
+{
+  "header-advanced": {
+    "showCTA": true,
+    "ctaText": "Get Started",
+    "logo": "SaaS Template",
+    "showLanguageSwitcher": true,
+    "showThemeToggle": true,
+    "navigation": [
+      {
+        "label": "Features",
+        "href": "#features"
+      },
+      {
+        "label": "Pricing",
+        "href": "#pricing"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  }
+}

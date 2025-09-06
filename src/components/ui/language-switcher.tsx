@@ -46,15 +46,8 @@ export function LanguageSwitcher() {
     }
 
     // Construct new path based on target locale
-    let newPath: string;
-    if (newLocale === 'en') {
-      // For English, check if we need prefix based on localePrefix: 'as-needed'
-      // Since en is default, no prefix needed
-      newPath = pathWithoutLocale;
-    } else {
-      // Non-default locale, add prefix
-      newPath = `/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
-    }
+    // Always include locale prefix to match [locale] routes
+    const newPath = `/${newLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`;
 
     router.push(newPath);
   };
